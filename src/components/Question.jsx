@@ -19,10 +19,10 @@ const Question = () => {
 
     return (
         <div id="question">
-            <p>
+            <h5>
                 Pergunta {quizState.currentQuestion + 1} de {quizState.questions.length}
-            </p>
-            <h2>{currentQuestion.question}</h2>
+            </h5>
+            <p>{currentQuestion.question}</p>
             <div id="options-container">
                 {currentQuestion.options.map((option) => (
                     <Option
