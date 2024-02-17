@@ -27,7 +27,7 @@ const data = [
   },
   {
     question: "De acordo com o Plano Nacional de Controle da Dengue, algumas das atribuições e competências do município, no enfrentamento dessa arbovirose, são:",
-    options: ["notificação e investigação dos casos de Dengue, levan- tamento de índice de infestação, execução de ações de controle mecânico, químico e biológico do mosquito",
+    options: ["notificação e investigação dos casos de Dengue, levantamento de índice de infestação, execução de ações de controle mecânico, químico e biológico do mosquito",
       "estruturação do Laboratório Central de Saúde Pública (Lacen) para diagnóstico e isolamento viral da Dengue, definição e estruturação de centros de referência para tratamento das formas graves da Dengue",
       "conduzir, em articulação com o Ministério da Saúde, as atividades de educação em saúde de abrangência nacional, coordenação de cooperação técnica com países de fronteiras com problema de transmissão de Dengue",
       "apresentação bimestral dos resultados do programa à Comissão Intergestores Tripartite e ao Conselho Nacional de Saúde, normatização técnica das ações de vigilância e controle da Dengue."],
