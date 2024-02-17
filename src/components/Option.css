@@ -1,5 +1,5 @@
 .option {
-    background-color: #3c0e70;
+    background-color: #ffffff;
     border-radius: .5rem;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -18,10 +18,10 @@
 
 .correct {
     background-color: #22e71b;
-    font-weight: bold;
+    color: #000000;
 }
 
 .wrong {
-    background-color: #61010e;
-    opacity: 0.4;
+    background-color: #f51432;
+    opacity: 0.6;
 }

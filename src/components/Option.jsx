@@ -8,8 +8,8 @@ const Option = ({ option, selectOption, answer }) => {
 
     return (
         <div
-            className={`option ${quizState.answerSelected && option === answer ? "correct" : ""
-                }   ${quizState.answerSelected && option !== answer ? "wrong" : ""}`}
+            className={`option ${quizState.answerSelected && option[0] === answer ? "correct" : ""
+                }   ${quizState.answerSelected && option[0] !== answer ? "wrong" : ""}`}
             onClick={() => selectOption()}>
             <p>{option}</p>
         </div>

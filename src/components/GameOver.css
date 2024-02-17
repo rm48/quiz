@@ -11,7 +11,8 @@
 }
 
 #gameover p {
-    color: #8435de;
+    color: #a30606;
+    font-weight: bolder;
 }
 
 #gameover img {

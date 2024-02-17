@@ -1,15 +1,16 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
-  color: #FFF;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: #000000;
 }
 
 body,
 html {
   min-height: 100vh;
   height: 100%;
-  background-color: #1c1c1c;
+  background-color: #c5c35d;
 }
 
 img {
@@ -23,18 +24,18 @@ button {
   padding: .8rem 1.5rem;
   background: linear-gradient(
     90deg,
-    rgb(132, 53, 222, 1) 0%,
-    rgb(184, 84, 232, 1) 100%
+    rgb(222, 177, 53) 0%,
+    rgb(230, 255, 1) 100%
   );
   border-radius: 3rem;
-  border: none;
+  border: 2px solid #fffcfc;
 }
 
 button:hover {
   background: linear-gradient(
     90deg,
-    rgb(184, 84, 232, 1) 0%,
-    rgb(2, 53, 222, 1) 100%
+    rgb(232, 230, 84) 0%,
+    rgb(222, 189, 2) 100%
     
   );
 }
