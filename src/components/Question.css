@@ -1,12 +1,13 @@
 #question {
     text-align: left;
     max-width: 500px;
-    background-color: #e6e470;
+    background-color: #c5c35d;
     padding: 0.5rem;
 }
 
 #question h5 {
     margin-bottom: 0.5rem;
+    color: #0906a3;
 }
 
 #question p {

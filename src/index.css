@@ -20,8 +20,8 @@ img {
 button {
   font-weight: bold;
   font-size: 1.2rem;
-  cursor: pointer;
-  padding: .8rem 1.5rem;
+  /* cursor: pointer; */
+  padding: .8rem 8rem;
   background: linear-gradient(
     90deg,
     rgb(222, 177, 53) 0%,
@@ -31,11 +31,11 @@ button {
   border: 2px solid #fffcfc;
 }
 
-button:hover {
+/*button:hover {
   background: linear-gradient(
     90deg,
     rgb(232, 230, 84) 0%,
     rgb(222, 189, 2) 100%
     
   );
-}
+}*/

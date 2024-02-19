@@ -8,6 +8,7 @@ const initialState = {
     questions,
     currentQuestion: 0,
     score: 0,
+    nota: 0,
     answerSelected: false,
 };
 
@@ -52,16 +53,28 @@ const quizReducer = (state, action) => {
 
         case "CHECK_ANSWER":
             if (state.answerSelected) return state;
-
+            // eslint-disable-next-line no-case-declarations
+            const questao = state.questions[state.currentQuestion];
+            // eslint-disable-next-line no-case-declarations
             const answer = action.payload.answer;
+            // eslint-disable-next-line no-case-declarations
             const option = action.payload.option;
+            // eslint-disable-next-line no-case-declarations
             let correctAnswer = 0;
-
-            if (answer === option[0]) correctAnswer = 1;
+            // eslint-disable-next-line no-case-declarations
+            let nota = 0;
+            if (answer === option[0]) {
+                correctAnswer = 1;
+                if (questao.question[0] === "S" || questao.question[0] === "E")
+                    nota = 0.3;
+                else
+                    nota = 0.2;
+            }
 
             return {
                 ...state,
                 score: state.score + correctAnswer,
+                nota: state.nota + nota,
                 answerSelected: option,
             }
 

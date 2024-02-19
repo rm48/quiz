@@ -5,17 +5,19 @@
     flex-direction: column;
 }
 
-#gameover h2,
-#gameover p {
-    margin-bottom: 1rem;
+#gameover h1 {
+    padding: 2rem;
+    color: #0906a3;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 #gameover p {
-    color: #a30606;
-    font-weight: bolder;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 #gameover img {
     margin: 2rem;
-    height: 200px;
 }

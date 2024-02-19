@@ -20,13 +20,8 @@ const Question = () => {
     return (
         <div id="question">
             <h5>
-                Pergunta {quizState.currentQuestion + 1} de {quizState.questions.length}
+                Questão {quizState.currentQuestion + 1} de {quizState.questions.length}
             </h5>
-            {quizState.answerSelected && (
-                <button onClick={() => dispatch({ type: "CHANGE_QUESTION" })}>
-                    Próxima questão
-                </button>
-            )}
             <p>{currentQuestion.question}</p>
             <div id="options-container">
                 {currentQuestion.options.map((option) => (
@@ -39,7 +34,7 @@ const Question = () => {
                 ))}
                 {quizState.answerSelected && (
                     <button onClick={() => dispatch({ type: "CHANGE_QUESTION" })}>
-                        Próxima questão
+                        Continuar
                     </button>
                 )}
             </div>

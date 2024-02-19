@@ -4,24 +4,30 @@
     padding: 1rem;
     margin-bottom: 1rem;
     cursor: pointer;
-    opacity: .8;
-    transition: 0.4s;
+    /* opacity: .8; 
+    transition: 0.4s;*/
 }
+
 
 .option:hover {
     opacity: 1;
 }
 
+
 #options-container .option p {
     margin-bottom: 0;
 }
 
-.correct {
-    background-color: #22e71b;
-    color: #000000;
-}
 
 .wrong {
-    background-color: #f51432;
-    opacity: 0.6;
+    background-color: #ff5b5b;
+    opacity: 0.5;
 }
+
+.correct {
+    background-color: #71f85f;
+}
+
+
+
+
