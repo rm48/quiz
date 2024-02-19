@@ -9,7 +9,7 @@ const data = [
     ],
     answer: "d",
   },
-    {
+  {
     question: "Portug -> Assinale o antônimo do termo: 'abaladas'",
     options: [
       "a) Firmes",
@@ -19,7 +19,7 @@ const data = [
     ],
     answer: "a",
   },
-    {
+  {
     question: "Portug -> Assinale a palavra que se apresenta no feminino",
     options: [
       "a) Somatório",
@@ -29,7 +29,7 @@ const data = [
     ],
     answer: "c",
   },
-    {
+  {
     question: "Portug -> A palavra 'turbilhão' pode ser substituída, sem alteração de sentido, por:",
     options: [
       "a) alvoroço",
@@ -39,7 +39,7 @@ const data = [
     ],
     answer: "a",
   },
-    {
+  {
     question: "Portug -> Na frase: “A inconstância, nesse caso, é sinônimo de ajuste.”, as vírgulas têm como objetivo:",
     options: [
       "a) indicar um esclarecimento",
@@ -49,7 +49,7 @@ const data = [
     ],
     answer: "c",
   },
-    {
+  {
     question: "Portug -> A palavra 'simbólica' é acentuada pelo mesmo motivo que a seguinte palavra:",
     options: [
       "a) Trás",
@@ -59,7 +59,7 @@ const data = [
     ],
     answer: "b",
   },
-    {
+  {
     question: "Portug -> Assinale a afirmativa que apresenta ERRO de grafia",
     options: [
       "a) Muitas pessoas confundem adolescência com puberdade",
@@ -69,7 +69,7 @@ const data = [
     ],
     answer: "c",
   },
-    {
+  {
     question: "Portug -> No trecho “E se fosse seu filho?” o ponto de interrogação ( ? ) foi utilizado para",
     options: [
       "a) explanar surpresa",
@@ -79,7 +79,7 @@ const data = [
     ],
     answer: "b",
   },
-    {
+  {
     question: "Portug -> Assinale a alternativa em que a palavra apresenta erro de acentuação gráfica",
     options: [
       "a) júri",
@@ -89,7 +89,7 @@ const data = [
     ],
     answer: "b",
   },
-    {
+  {
     question: "Portug -> “Rude” tem como antônimo:",
     options: [
       "a) terno",
@@ -99,7 +99,7 @@ const data = [
     ],
     answer: "a",
   },
-    {
+  {
     question: "Mat -> João tem 33 anos, quando seu irmão Marcos nasceu João tinha um terço da idade que tem hoje. Qual a idade de Marcos:",
     options: [
       "a) 10 anos",
@@ -109,7 +109,7 @@ const data = [
     ],
     answer: "d",
   },
-      {
+  {
     question: "Mat -> A polegada é uma unidade de medida de comprimento usada principalmente para medir o tamanho das diagonais das telas de TV. Sabendo que 1” (1 polegada) vale, aproximadamente, 2,5 cm, quanto mede a diagonal de uma TV de 32”?",
     options: [
       "a) 25 cm",
@@ -119,7 +119,7 @@ const data = [
     ],
     answer: "d",
   },
-      {
+  {
     question: "Mat -> Se o sucessor de um número é metade de 30 quanto vale o dobro desse número?",
     options: [
       "a) 14",
@@ -129,8 +129,8 @@ const data = [
     ],
     answer: "b",
   },
-      {
-    question: "Mat -> m um processo seletivo, 1̸ 5 dos candidatos inscritos não compareceram para realizar a prova. Essa parcela corresponde a:",
+  {
+    question: "Mat -> Em um processo seletivo, 1/5 dos candidatos inscritos não compareceram para realizar a prova. Essa parcela corresponde a:",
     options: [
       "a) 10% dos inscritos",
       "b) 15% dos inscritos",
@@ -139,7 +139,7 @@ const data = [
     ],
     answer: "c",
   },
-      {
+  {
     question: "Mat -> São necessários 2 trabalhadores para limpar um terreno de 1000m em 1 dia. Para fazer esse mesmo serviço em 2 dias é preciso de:",
     options: [
       "a) 2 trabalhadores",
@@ -149,7 +149,7 @@ const data = [
     ],
     answer: "d",
   },
-      {
+  {
     question: "Gerais -> A independência do Brasil determinou o fim do laço colonial que existia com Portugal, declarando o país como uma nação independente. Pode-se afirmar que a data na qual foi declarada a independência é:",
     options: [
       "a) 10 de abril de 1982",
@@ -159,7 +159,7 @@ const data = [
     ],
     answer: "c",
   },
-        {
+  {
     question: "Gerais -> __________ é um bioma exclusivamente brasileiro, ocupando uma área que corresponde a cerca de 70% da Região Nordeste e 11% do território nacional. Seu nome possui origem tupi-guarani e significa “floresta branca”. Essa denominação representa as características da vegetação desse ecossistema, cujas folhas caem no período da seca. O clima que compreende esta região é o tropical semiárido, que é marcado por longos períodos sem chuvas.",
     options: [
       "a) Mata Atlântica",
@@ -169,7 +169,7 @@ const data = [
     ],
     answer: "b",
   },
-        {
+  {
     question: "Gerais -> O que é Crimeia?",
     options: [
       "a) tipo de conferência realizada entre líderes de organizações russas",
@@ -179,7 +179,7 @@ const data = [
     ],
     answer: "c",
   },
-        {
+  {
     question: "Gerais -> Quanto ao projeto de criação da moeda comum entre Brasil e Argentina, qual dessas alternativas é verdadeira?",
     options: [
       "a) seu nome será MCBA (sigla de moeda comum entre Brasil e Argentina)",
@@ -189,7 +189,7 @@ const data = [
     ],
     answer: "c",
   },
-        {
+  {
     question: "Gerais -> Que país sediará as Olimpíadas de 2024?",
     options: [
       "a) Catar",
@@ -199,7 +199,7 @@ const data = [
     ],
     answer: "d",
   },
-        {
+  {
     question: "Saúde -> De acordo com a lei 8.080/1990, dos objetivos e atribuições, quais execuções e ações estão incluídas no campo de atuação do Sistema Único de Saúde (SUS)?",
     options: [
       "a) Vigilância sanitária; vigilância epidemiológica; saúde do trabalhador; assistência terapêutica integral, inclusive farmacêutica.",
@@ -209,7 +209,7 @@ const data = [
     ],
     answer: "a",
   },
-          {
+  {
     question: "Saúde -> Considerando o trabalho na comunidade, qual alternativa mostra estratégias de providência precoce de prevenção?",
     options: [
       "a) Prevenção primária",
@@ -219,7 +219,7 @@ const data = [
     ],
     answer: "a",
   },
-          {
+  {
     question: "Saúde -> O que compete à direção nacional do Sistema Único de Saúde (SUS)?",
     options: [
       "a) Formular, avaliar e apoiar políticas de alimentação e nutrição.",
@@ -229,7 +229,7 @@ const data = [
     ],
     answer: "d",
   },
-          {
+  {
     question: "Saúde -> A Lei nº 8080/1990 dispõe sobre as condições para a promoção, proteção e recuperação da saúde, a organização e o funcionamento dos serviços correspondentes e dá outras providências. São objetivos do SUS:",
     options: [
       "a) Identificação e divulgação dos fatores condicionantes e determinantes da saúde",
@@ -239,7 +239,7 @@ const data = [
     ],
     answer: "d",
   },
-          {
+  {
     question: "Saúde -> De acordo com suas missões, a Vigilância Sanitária tem ações a desenvolver no campo da saúde pública visando prevenir riscos à saúde decorrentes da exposição humana a condições adversas do meio ambiente. Entende-se por vigilância sanitária, de acordo com a Lei nº 8.080, de 19 de setembro de 1990, conforme o artigo 6º, parágrafo 1º:",
     options: [
       "a) Um conjunto de ações capazes apenas de eliminar riscos à saúde",
@@ -249,7 +249,7 @@ const data = [
     ],
     answer: "b",
   },
-          {
+  {
     question: "Espec -> Em uma visita rotineira de uma agente da unidade de saúde a uma residência do bairro foi detectado um caso específico que necessitou de um agente para controle de vetores. Em qual caso é necessário esse acompanhamento?",
     options: [
       "a) Leptospirose",
@@ -340,7 +340,7 @@ const data = [
     answer: "a",
   },
   {
-    question: "Espec -> Classifique os animais peçonhentos de acordo com a sequência:",
+    question: "Espec -> Classifique os animais peçonhentos de acordo com a sequência: 1 – Ofídeos; 2 – Aracnídeos; 3 - Lepidópteros",
     options: [
       "a) Cobras, aranhas, borboletas",
       "b) Cobras, carrapatos, mariposas",
