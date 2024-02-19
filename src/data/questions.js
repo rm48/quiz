@@ -282,7 +282,7 @@ const data = [
   {
     question: "Espec -> Sabemos que a esquistossomose é uma doença que ataca o fígado e o baço e que, se não tratada a tempo, pode levar ao óbito. É causada por um verme parasita da classe Trematoda, o Schistosoma mansoni. Essa doença também é conhecida como “barriga d’água”, “doença do caramujo” ou “xistose” e ocorre em diversas partes do mundo de forma não controlada, por isso é considerada uma doença endêmica. Quais dos seguintes cuidados NÃO é eficaz para evitar essa doença?",
     options: [
-      "a) Evitar nadar em lagos, canis e rios em regiões onde a esquistossomose ocorre",
+      "a) Evitar nadar em lagos, canais e rios em regiões onde a esquistossomose ocorre",
       "b) Certificar-se de que a água que se bebe é tratada. Em caso de dúvidas, ferver a água por 1 minuto ou filtrá-la",
       "c) Em regiões com esquistossomose, a água de banho deve ser utilizada em temperatura ambiente",
       "d) Se houver exposição acidental rápida à água potencialmente contaminada, secar-se vigorosamente com toalha pode ajudar a prevenir que o parasita penetre na pele",
