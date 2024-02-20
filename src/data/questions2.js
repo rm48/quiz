@@ -220,7 +220,7 @@ const data = [
         answer: "c",
     },
     {
-        question: "Saúde -> Assinale a alternativa que completa corretamente a lacuna do seguinte texto: A Atenção Básica caracteriza-se por um conjunto de açõesde saúde,_____________________,que abrangem a promoção e a proteção da saúde, a prevenção de agravos, o diagnóstico, o tratamento, a reabilitação e a manutenção da saúde.",
+        question: "Saúde -> Assinale a alternativa que completa corretamente a lacuna do seguinte texto: A Atenção Básica caracteriza-se por um conjunto de ações de saúde,_____________________,que abrangem a promoção e a proteção da saúde, a prevenção de agravos, o diagnóstico, o tratamento, a reabilitação e a manutenção da saúde.",
         options: [
             "a) coordenadas pelo Ministério da Saúde",
             "b) em cada estado",

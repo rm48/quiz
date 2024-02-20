@@ -16,5 +16,5 @@ const Option = ({ option, selectOption, answer, }) => {
         </div>
     )
 }
-//${quizState.answerSelected && option[0] !== answer ? "wrong" : ""}
+
 export default Option
