@@ -14,14 +14,15 @@ html {
 }
 
 img {
-  max-width: 100%;
+  max-width: 96%;
 }
 
 button {
   font-weight: bold;
   font-size: 1.2rem;
   /* cursor: pointer; */
-  padding: .8rem 8rem;
+  margin: 1rem;
+  padding: .8rem;
   background: linear-gradient(
     90deg,
     rgb(222, 177, 53) 0%,

@@ -1,11 +1,12 @@
 import { createContext, useReducer } from "react";
-import questions from '../data/questions'
+import questions1 from '../data/questions1';
+import questions2 from '../data/questions2';
 
 const STAGES = ["Start", "Playing", "End"]
 
 const initialState = {
     gameStage: STAGES[0],
-    questions,
+    questions: questions1,
     currentQuestion: 0,
     score: 0,
     nota: 0,
@@ -18,18 +19,25 @@ const quizReducer = (state, action) => {
             return {
                 ...state,
                 gameStage: STAGES[1],
+                questions: questions1,
             };
-
-        case "REORDER_QUESTIONS":
-            // eslint-disable-next-line no-case-declarations
-            const reorderedQuestions = questions.sort(() => {
-                return Math.random() - 0.5;
-            });
-
+        case "CHANGE_STATE2":
             return {
                 ...state,
-                question: reorderedQuestions,
+                gameStage: STAGES[1],
+                questions: questions2,
             };
+
+        // case "REORDER_QUESTIONS":
+        //     // eslint-disable-next-line no-case-declarations
+        //     const reorderedQuestions = questions.sort(() => {
+        //         return Math.random() - 0.5;
+        //     });
+
+        //     return {
+        //         ...state,
+        //         question: reorderedQuestions,
+        //     };
 
         case "CHANGE_QUESTION":
             // eslint-disable-next-line no-case-declarations
@@ -37,7 +45,7 @@ const quizReducer = (state, action) => {
             // eslint-disable-next-line no-case-declarations
             let endGame = false
 
-            if (!questions[nextQuestion]) {
+            if (!state.questions[nextQuestion]) {
                 endGame = true;
             }
 
@@ -54,7 +62,7 @@ const quizReducer = (state, action) => {
         case "CHECK_ANSWER":
             if (state.answerSelected) return state;
             // eslint-disable-next-line no-case-declarations
-            const questao = state.questions[state.currentQuestion];
+            //const questao = state.questions[state.currentQuestion];
             // eslint-disable-next-line no-case-declarations
             const answer = action.payload.answer;
             // eslint-disable-next-line no-case-declarations
@@ -65,7 +73,12 @@ const quizReducer = (state, action) => {
             let nota = 0;
             if (answer === option[0]) {
                 correctAnswer = 1;
-                if (questao.question[0] === "S" || questao.question[0] === "E")
+                // if (questao.question[0] === "S" || questao.question[0] === "E")
+                //     nota = 0.3;
+                // else
+                //     nota = 0.2;
+                console.log(state.currentQuestion)
+                if (state.currentQuestion >= 20)
                     nota = 0.3;
                 else
                     nota = 0.2;

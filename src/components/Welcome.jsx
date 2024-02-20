@@ -11,10 +11,13 @@ const Welcome = () => {
 
     return (
         <div id="welcome">
-            <h2>Agente Controlador de Vetores</h2>
-            <p>Simulado 1</p>
+            <h2>Ag. Contr. Vet. | Ag. Avaliação</h2>
+
             <button onClick={() => dispatch({ type: "CHANGE_STATE" })}>
-                Iniciar
+                Simulado 1
+            </button>
+            <button onClick={() => dispatch({ type: "CHANGE_STATE2" })}>
+                Simulado 2
             </button>
             <img src={Quiz} alt="materias" />
         </div>
