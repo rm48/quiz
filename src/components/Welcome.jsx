@@ -19,6 +19,12 @@ const Welcome = () => {
             <button onClick={() => dispatch({ type: "CHANGE_STATE2" })}>
                 Simulado 2
             </button>
+            <button onClick={() => dispatch({ type: "CHANGE_STATE3" })}>
+                Simulado 3
+            </button>
+            <button onClick={() => dispatch({ type: "CHANGE_STATE4" })}>
+                Simulado 4
+            </button>
             <img src={Quiz} alt="materias" />
         </div>
     );

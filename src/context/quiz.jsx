@@ -1,6 +1,8 @@
 import { createContext, useReducer } from "react";
 import questions1 from '../data/questions1';
 import questions2 from '../data/questions2';
+import questions3 from '../data/questions3';
+import questions4 from '../data/questions4';
 
 const STAGES = ["Start", "Playing", "End"]
 
@@ -47,16 +49,34 @@ const quizReducer = (state, action) => {
                 gameStage: STAGES[1],
                 questions: reorderedQuestions2,
             };
+        case "CHANGE_STATE3":
+            const reorderedQuestions3 = questions3.sort(() => {
+                return Math.random() - 0.5;
+            });
+            return {
+                ...state,
+                gameStage: STAGES[1],
+                questions: reorderedQuestions3,
+            };
+        case "CHANGE_STATE4":
+            const reorderedQuestions4 = questions4.sort(() => {
+                return Math.random() - 0.5;
+            });
+            return {
+                ...state,
+                gameStage: STAGES[1],
+                questions: reorderedQuestions4,
+            };
 
-        // case "REORDER_QUESTIONS":
-        //     const reorderedQuestions = state.questions.sort(() => {
-        //         return Math.random() - 0.5;
-        //     });
+        case "REORDER_QUESTIONS":
+            const reorderedQuestions = questions1.sort(() => {
+                return Math.random() - 0.5;
+            });
 
-        //     return {
-        //         ...state,
-        //         question: reorderedQuestions,
-        //     };
+            return {
+                ...state,
+                questions: reorderedQuestions,
+            };
 
         case "CHANGE_QUESTION":
             const nextQuestion = state.currentQuestion + 1;

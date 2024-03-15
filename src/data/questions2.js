@@ -350,7 +350,7 @@ const data = [
         answer: "c",
     },
     {
-        question: "Indique a alternativa CORRETA para atribuição específica dos Agentes Comunitários de Saúde:",
+        question: "Espec -> Indique a alternativa CORRETA para atribuição específica dos Agentes Comunitários de Saúde:",
         options: [
             "a) Responsabilizar-se pela população adscrita, mantendo a coordenação do cuidado mesmo quando esta necessita de atenção em outros serviços do sistema de saúde.",
             "b) Cadastrar todas as pessoas de sua micro área e manter os cadastros atualizados.",
