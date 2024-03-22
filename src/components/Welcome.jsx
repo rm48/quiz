@@ -11,7 +11,7 @@ const Welcome = () => {
 
     return (
         <div id="welcome">
-            <h2>Ag. Contr. Vet. | Ag. Avaliação</h2>
+            <h2>Ag. Avaliação</h2>
 
             <button onClick={() => dispatch({ type: "CHANGE_STATE" })}>
                 Simulado 1
@@ -21,9 +21,6 @@ const Welcome = () => {
             </button>
             <button onClick={() => dispatch({ type: "CHANGE_STATE3" })}>
                 Simulado 3
-            </button>
-            <button onClick={() => dispatch({ type: "CHANGE_STATE4" })}>
-                Simulado 4
             </button>
             <img src={Quiz} alt="materias" />
         </div>

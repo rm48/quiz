@@ -2,7 +2,6 @@ import { createContext, useReducer } from "react";
 import questions1 from '../data/questions1';
 import questions2 from '../data/questions2';
 import questions3 from '../data/questions3';
-import questions4 from '../data/questions4';
 
 const STAGES = ["Start", "Playing", "End"]
 
@@ -58,15 +57,6 @@ const quizReducer = (state, action) => {
                 gameStage: STAGES[1],
                 questions: reorderedQuestions3,
             };
-        case "CHANGE_STATE4":
-            const reorderedQuestions4 = questions4.sort(() => {
-                return Math.random() - 0.5;
-            });
-            return {
-                ...state,
-                gameStage: STAGES[1],
-                questions: reorderedQuestions4,
-            };
 
         case "REORDER_QUESTIONS":
             const reorderedQuestions = questions1.sort(() => {
@@ -102,24 +92,27 @@ const quizReducer = (state, action) => {
             const answer = action.payload.answer;
             const option = action.payload.option;
             let correctAnswer = 0;
-            let nota = 0;
+            //let nota = 0;
+            let pontos = 0;
             if (answer === option[0]) {
                 correctAnswer = 1;
-                if (questao.question[0] === "S" || questao.question[0] === "E")
-                    nota = 0.3;
-                else
-                    nota = 0.2;
+                // if (questao.question[0] === "S" || questao.question[0] === "E")
+                //     nota = 0.3;
+                // else
+                //     nota = 0.2;
                 // console.log(state.currentQuestion)
                 // if (state.currentQuestion >= 20)
                 //     nota = 0.3;
                 // else
                 //     nota = 0.2;
+                pontos = 0.25;
             }
 
             return {
                 ...state,
                 score: state.score + correctAnswer,
-                nota: state.nota + nota,
+                //nota: state.nota + nota,
+                nota: state.nota + pontos,
                 answerSelected: option,
             }
 
