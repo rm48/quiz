@@ -1,206 +1,207 @@
 const data = [
     {
-        question: "Portug -> Há erro no emprego de pronome em:",
+        question: "Saúde -> Art. 6º da lei 8080 -> Estão incluídas ainda no campo de atuação do Sistema Único de Saúde (SUS):",
         options: [
-            "a) Isto é para eu levar",
-            "b) b) Nada restou entre você e eu.",
-            "c) Para mim, fazer o exercício é um prazer.",
-            "d) Para eu fazer o exercício, é necessário silêncio.",
+            "a) vigilância socioassistencial; assistência terapêutica integral, inclusive farmacêutica; saúde bucal;",
+            "b) vigilância sanitária e epidemiológica; assistência terapêutica integral, inclusive farmacêutica; saúde do trabalhador; saúde bucal;",
+            "c) vigilância epidemiológica; assistência terapêutica integral, inclusive farmacêutica; saúde do trabalhador; saúde bucal;",
+            "d) vigilância sanitária e socioassistencial; assistência terapêutica integral; saúde do trabalhador; saúde bucal;",
         ],
         answer: "b",
     },
     {
-        question: "Portug -> Assinale o erro no emprego de pronomes.",
+        question: "Saúde -> Qual das alternativas a seguir descreve corretamente um dos princípios do Sistema Único de Saúde?",
         options: [
-            "a) Vossa Excelência, o senador, estará presente no congresso.",
-            "b) Tentaram falar com nós próprios.",
-            "c) Cada um sabe de si.",
-            "d) Carlos e Maria estavam na reunião. Aquele ficou calado o tempo todo; esta não parava de falar.",
+            "a) Participação na normatização, fiscalização e controle dos serviços de saúde do trabalhador nas instituições e empresas públicas e privadas.",
+            "b) Conjugação dos recursos financeiros, tecnológicos, materiais e humanos da União, dos Estados, do Distrito Federal e dos Municípios na prestação de serviços de assistência à saúde da população.",
+            "c) Coordenar ações e serviços de saúde executados diretamente ou mediante participação complementar da iniciativa privada.",
+            "d) Avaliar os impactos das tecnologias nos serviços de saúde.",
+        ],
+        answer: "b",
+    },
+    {
+        question: "Saúde -> É entendida como um conjunto de ações capazes de eliminar, diminuir ou prevenir riscos à saúde e de intervir nos problemas sanitários decorrentes do meio ambiente, na produção e circulação de bens e na prestação de serviços de interesse da saúde.",
+        options: [
+            "a) Vigilância em saúde ambiental",
+            "b) Vigilância epidemiológica",
+            "c) Vigilância sanitária",
+            "d) Vigilância em saúde do trabalhador",
+        ],
+        answer: "c",
+    },
+    {
+        question: "Saúde -> Art. 3º da lei 8080",
+        options: [
+            "a) O dever do Estado de garantir a saúde consiste na formulação e execução de políticas econômicas e sociais que visem à redução de riscos de doenças e de outros agravos e no estabelecimento de condições que assegurem acesso universal e igualitário às ações e aos serviços para a sua promoção, proteção e recuperação.",
+            "b) Os níveis de saúde expressam a organização social e econômica do País, tendo a saúde como determinantes e condicionantes, entre outros, a alimentação, a moradia, o saneamento básico, o meio ambiente, o trabalho, a renda, a educação, a atividade física, o transporte, o lazer e o acesso aos bens e serviços essenciais.",
+            "c) O dever do Estado não exclui o das pessoas, da família, das empresas e da sociedade.",
+            "d) A saúde é um direito fundamental do ser humano, devendo o Estado prover as condições indispensáveis ao seu pleno exercício.",
+        ],
+        answer: "b",
+    },
+    {
+        question: "Saúde -> A integração entre a Vigilância em Saúde e Atenção Básica é condição essencial para o alcance de resultados que atendam às necessidades de saúde da população. Sobre a atenção básica, assinale a alternativa correta.",
+        options: [
+            "a) O processo de territorialização e mapeamento da área de atuação é responsabilidade exclusiva dos Agentes Comunitários de Saúde.",
+            "b) A Política Nacional de Atenção Básica recomenda que o parâmetro populacional seja de uma equipe por grupo de 2.000 a 5.500 pessoas.",
+            "c) São várias as diretrizes da atenção básica, dentre elas: a longitudinalidade, a coordenação do cuidado e a resolutividade",
+            "d) A prescrição de medicamentos nas Unidades Básicas é realizada exclusivamente por médicos",
+        ],
+        answer: "c",
+    },
+    {
+        question: "Saúde -> Art. 1º da lei 8080",
+        options: [
+            "a) Esta lei regula, em todo o território nacional, as ações e serviços de saúde, executados isolada ou conjuntamente, em caráter permanente ou eventual, por pessoas naturais ou jurídicas de direito Público ou privado",
+            "b) O conjunto de ações e serviços de saúde, prestados por órgãos e instituições públicas federais, estaduais e municipais, da Administração direta e indireta e das fundações mantidas pelo Poder Público, constitui o Sistema Único de Saúde (SUS).",
+            "c) Estão incluídas no disposto neste artigo as instituições públicas federais, estaduais e municipais de controle de qualidade, pesquisa e produção de insumos, medicamentos, inclusive de sangue e hemoderivados, e de equipamentos para saúde.",
+            "d) A iniciativa privada poderá participar do Sistema Único de Saúde (SUS), em caráter complementar.",
+        ],
+        answer: "b",
+    },
+    {
+        question: "Espec -> NÃO é um dos princípios do Sistema Único de Saúde:",
+        options: [
+            "a) participação na normatização, fiscalização e controle dos serviços de saúde do trabalhador nas instituições e empresas públicas e privadas",
+            "b) integração em nível executivo das ações de saúde, meio ambiente e saneamento básico",
+            "c) integralidade de assistência, entendida como conjunto articulado e contínuo das ações e serviços preventivos e curativos, individuais e coletivos, exigidos para cada caso em todos os níveis de complexidade do sistema",
+            "d) conjugação dos recursos financeiros, tecnológicos, materiais e humanos da União, dos Estados, do Distrito Federal e dos Municípios na prestação de serviços de assistência à saúde da população",
         ],
         answer: "a",
     },
     {
-        question: "Portug -> Marque o erro na substituição do termo destacado por pronome oblíquo.",
+        question: "Espec -> NÃO é um dos princípios do Sistema Único de Saúde:",
         options: [
-            "a) Quis os resultados. ->Qui-los.",
-            "b) Tens a casa. -> Tem-la.",
-            "c) Comprei os doces. -> Comprei-los.",
-            "d) Estudaram a situação. ->Estudaram-na.",
-        ],
-        answer: "c",
-    },
-    {
-        question: "Portug -> Marque o erro no emprego do pronome.",
-        options: [
-            "a) Sempre estaremos com vós todos.",
-            "b) Este livro em sua mão é bom?",
-            "c) Aqui está o vizinho cujo filho foi para a Itália.",
-            "d) Após mim, ninguém poderá entrar.",
+            "a) igualdade da assistência à saúde, sem preconceitos ou privilégios de qualquer espécie",
+            "b) coordenar ações e serviços de saúde executados diretamente ou mediante participação complementar da iniciativa privada",
+            "c) universalidade de acesso aos serviços de saúde em todos os níveis de assistência",
+            "d) proteção integral dos direitos humanos de todos os usuários e especial atenção à identificação de maus-tratos, de negligência e de violência sexual praticados contra crianças e adolescentes",
         ],
         answer: "b",
     },
     {
-        question: "Portug -> Houve troca no emprego de o e lhe na seguinte sentença:",
+        question: "Espec -> NÃO é um dos princípios do Sistema Único de Saúde:",
         options: [
-            "a) Àquele tio, sempre lhe deu atenção especial.",
-            "b) Esse escritor, sempre o vi nos congressos.",
-            "c) Nunca o faria qualquer mal.",
-            "d) Nunca o esconderia, mesmo se pudesse.",
-        ],
-        answer: "c",
-    },
-    {
-        question: "Portug -> Há erro de conjugação verbal em:",
-        options: [
-            "a) Medeia a reunião",
-            "b) A polícia interveio na briga.",
-            "c) Se você supuser que o seu plano dará certo, nós executá-lo-emos.",
-            "d) Quando eu te ver, vou te dar um abraço apertado!",
+            "a) descentralização político-administrativa, com direção única em cada esfera de governo: ênfase na descentralização dos serviços para os municípios; regionalização e hierarquização da rede de serviços de saúde",
+            "b) organização de atendimento público específico e especializado para mulheres e vítimas de violência doméstica em geral, que garanta, entre outros, atendimento, acompanhamento psicológico e cirurgias plásticas reparadoras",
+            "c) preservação da autonomia das pessoas na defesa de sua integridade física e moral",
+            "d) avaliar os impactos das tecnologias nos serviços de saúde",
         ],
         answer: "d",
     },
     {
-        question: "Portug -> Há erro de conjugação verbal em:",
+        question: "Espec -> NÃO é um dos princípios do Sistema Único de Saúde:",
         options: [
-            "a) Foi impresso",
-            "b) Tinha imprimido",
-            "c) Tinha impresso",
-            "d) Tinha chegado",
+            "a) participação da comunidade",
+            "b) organização dos serviços públicos de modo a evitar duplicidade de meios para fins idênticos",
+            "c) coordenar ações e serviços de saúde executados diretamente ou mediante participação complementar da iniciativa privada",
+            "d) direito à informação, às pessoas assistidas, sobre sua saúde",
         ],
         answer: "c",
     },
     {
-        question: "Portug -> A conjugação verbal está correta em:",
+        question: "Espec -> NÃO é um dos princípios do Sistema Único de Saúde:",
         options: [
-            "a) Se eu fosse você eu comprava aquela gravata.",
-            "b) O móvel não se adequa à sala.",
-            "c) Quando você pôr os pingos nos is.",
-            "d) Elas previram que ele viria.",
+            "a) utilização da epidemiologia para o estabelecimento de prioridades, a alocação de recursos e a orientação programática",
+            "b) divulgação de informações quanto ao potencial dos serviços de saúde e a sua utilização pelo usuário",
+            "c) participação na normatização, fiscalização e controle dos serviços de saúde do trabalhador nas instituições e empresas públicas e privadas",
+            "d) capacidade de resolução dos serviços em todos os níveis de assistência",
+        ],
+        answer: "c",
+    },
+
+    {
+        question: "Lei nº 8.080 - Quanto aos serviços privados de assistência, está incorreto:",
+        options: [
+            "a) Art. 20. Os serviços privados de assistência caracterizam-se pela atuação, por iniciativa própria, de profissionais liberais, legalmente habilitados, e de pessoas jurídicas de direito privado na promoção, proteção e recuperação da saúde.",
+            "b) Art. 21. A assistência à saúde é livre à iniciativa privada.",
+            "c) Art. 22. Na prestação de serviços privados de assistência à saúde, serão observados os princípios éticos e as normas expedidas pelo órgão de direção do SUS.",
+            "d) Art. 23. É vedada a participação direta ou indireta, inclusive controle, de empresas ou de capital estrangeiro na assistência à saúde",
         ],
         answer: "d",
     },
     {
-        question: "Portug -> A colocação pronominal está correta em:",
+        question: "Lei nº 8.080 - Quanto a Participação Complementar, está incorreto:",
         options: [
-            "a) Deixa eu escrever.",
-            "b) Nada mais há entre mim e você.",
-            "c) Não era minha intenção te machucar.",
-            "d) Agora negam-se a depor",
+            "a) Art. 24. Quando as suas disponibilidades forem insuficientes para garantir a cobertura assistencial à população de uma determinada área, o Sistema Único de Saúde (SUS) poderá recorrer aos serviços ofertados pela iniciativa privada.",
+            "b) Parágrafo único. A participação suplementar dos serviços privados será formalizada mediante contrato ou convênio, observadas, a respeito, as normas de direito privado.",
+            "c) Art. 25. Na hipótese do artigo anterior, as entidades filantrópicas e as sem fins lucrativos terão preferência para participar do Sistema Único de Saúde (SUS).",
+            "d) Art. 26. Os critérios e valores para a remuneração de serviços e os parâmetros de cobertura assistencial serão estabelecidos pela direção nacional do Sistema Único de Saúde (SUS), aprovados no Conselho Nacional de Saúde.",
         ],
         answer: "b",
     },
     {
-        question: "Portug -> Está correta:",
+        question: "Lei nº 8.080 - Art. 23.  É permitida a participação direta ou indireta, inclusive controle, de empresas ou de capital estrangeiro na assistência à saúde nos seguintes casos: (EXCETO)",
         options: [
-            "a) Irei ao evento afim de praticar o networking",
-            "b) A sua ideia vem de encontro ao que a empresa precisa neste momento.",
-            "c) Ao invés de comprar carros, compraremos caminhões para aumentar a frota.",
-            "d) A prosperidade é iminente.",
+            "a) I - doações de organismos internacionais vinculados à Organização das Nações Unidas, de entidades de cooperação técnica e de financiamento e empréstimos; ",
+            "b) II - pessoas jurídicas destinadas a instalar, operacionalizar ou explorar: hospital geral, inclusive filantrópico, hospital especializado, policlínica, clínica geral e clínica especializada",
+            "c) II - pessoas jurídicas destinadas a instalar, operacionalizar ou explorar: ações e pesquisas de planejamento familiar",
+            "d) III - serviços de saúde mantidos, com finalidade lucrativa, por empresas, para atendimento de seus empregados e dependentes, com ônus para a seguridade social;",
         ],
         answer: "d",
     },
     {
-        question: "Mat -> Numa ilha há apenas dois tipos de pessoas: as que sempre falam a verdade e as que sempre mentem. Um explorador contrata um ilhéu chamado X para servir-lhe de intérprete. Ambos encontram outro ilhéu, chamado Y, e o explorador lhe pergunta se ele fala a verdade. Ele responde na sua língua e o intérprete diz - Ele disse que sim, mas ele pertence ao grupo dos mentirosos. Dessa situação é correto concluir que",
+        question: "Lei nº 8.080 - Quanto a Participação Complementar, está incorreto:",
         options: [
-            "a) Y fala a verdade.",
-            "b) ambos falam a verdade.",
-            "c) ambos mentem.",
-            "d) X fala a verdade.",
+            "a) § 1° Na fixação dos critérios, valores, formas de reajuste e de pagamento da remuneração aludida neste artigo, a direção nacional do Sistema Único de Saúde (SUS) deverá fundamentar seu ato em demonstrativo econômico-financeiro que garanta a efetiva qualidade de execução dos serviços contratados.",
+            "b) § 2° Os serviços contratados submeter-se-ão às normas técnicas e administrativas e aos princípios e diretrizes do Sistema Único de Saúde (SUS), mantido o equilíbrio econômico e financeiro do contrato.",
+            "c) § 4° Aos proprietários, administradores e dirigentes de entidades ou serviços contratados é vedado exercer cargo de chefia ou função de confiança no Sistema Único de Saúde (SUS).",
+            "d) § 5º Os valores a que se refere o caput deste artigo, para o conjunto das remunerações dos serviços de saúde, serão redefinidos a cada dois anos",
         ],
         answer: "d",
     },
     {
-        question: "Mat -> Sabe-se que existe pelo menos um A que é B. Sabe-se, também, que todo B é C. Segue-se, portanto, necessariamente que",
+        question: "Lei nº 8.080 - Quanto à política de recursos humanos ",
         options: [
-            "a) todo C é B",
-            "b) todo C é A",
-            "c) algum A é C",
-            "d) nada que não seja C é A",
-        ],
-        answer: "c",
-    },
-    {
-        question: "Mat -> Considere as seguintes premissas (onde X, Y, Z e P são conjuntos não vazios): Premissa 1: “X está contido em Y e em Z, ou X está contido em P”;  Premissa 2: “X não está contido em P”;  Pode-se, então, concluir que, necessariamente",
-        options: [
-            "a) Y está contido em Z",
-            "b) X está contido em Z",
-            "c) Y está contido em Z ou em P",
-            "d) X não está contido nem em P nem em Y",
+            "a) I - organização de um sistema de formação de recursos humanos em todos os nível superior ensino",
+            "b) IV - valorização da dedicação exclusiva aos serviços do Sistema Único de Saúde",
+            "c) Parágrafo único. Os serviços públicos que integram o Sistema Único de Saúde (SUS) constituem campo de prática de extensão",
+            "d) Art. 28. Os cargos e funções de chefia, direção e assessoramento, no âmbito do Sistema Único de Saúde (SUS), só poderão ser exercidas em regime de tempo parcial.",
         ],
         answer: "b",
     },
     {
-        question: "Mat -> Chama-se tautologia a toda proposição que é sempre verdadeira, independentemente da verdade dos termos que a compõem. Um exemplo de tautologia é:",
+        question: "Lei nº 8.080 - Art. 32. São considerados de outras fontes os recursos provenientes de: (EXCETO)",
         options: [
-            "a) se João é alto, então João é alto ou Guilherme é gordo",
-            "b) se João é alto, então João é alto e Guilherme é gordo",
-            "c) se João é alto ou Guilherme é gordo, então Guilherme é gordo",
-            "d) se João é alto ou Guilherme é gordo, então João é alto e Guilherme é gordo",
+            "a) II - Serviços que possam ser prestados sem prejuízo da assistência à saúde;",
+            "b) I - valores apreendidos em decorrência de tráfico de entorpecentes;",
+            "c) IV - alienações patrimoniais e rendimentos de capital;",
+            "d) V - taxas, multas, emolumentos e preços públicos arrecadados no âmbito do Sistema Único de Saúde",
+        ],
+        answer: "b",
+    },
+    {
+        question: "Lei nº 8.080 - Art. 32. São considerados de outras fontes os recursos provenientes de: (EXCETO)",
+        options: [
+            "a) I - valores apreendidos em decorrência de trabalho escravo",
+            "b) III - ajuda, contribuições, doações e donativos;",
+            "c) IV - alienações patrimoniais e rendimentos de capital;",
+            "d) VI - rendas eventuais, inclusive comerciais e industriais.",
         ],
         answer: "a",
     },
     {
-        question: "Mat -> Sabe-se que a ocorrência de B é condição necessária para a ocorrência de C e condição suficiente para a ocorrência de D. Sabe-se, também, que a ocorrência de D é condição necessária e suficiente para a ocorrência de A. Assim, quando C ocorre, ",
+        question: "Lei nº 8.080 - Quanto aos Recursos, está incorreto:",
         options: [
-            "a) D ocorre e B não ocorre",
-            "b) D não ocorre ou A não ocorre",
-            "c) B e A ocorrem",
-            "d) nem B nem D ocorrem",
-        ],
-        answer: "c",
-    },
-    {
-        question: "Mat -> Se Frederico é francês, então Alberto não é alemão. Ou Alberto é alemão, ou Egídio é  espanhol. Se Pedro não é português, então Frederico é francês. Ora, nem Egídio é espanhol nem Isaura é italiana. Logo:",
-        options: [
-            "a) Pedro é português e Frederico é francês",
-            "b) Pedro é português e Alberto é alemão",
-            "c) Pedro não é português e Alberto é alemão",
-            "d) Egídio é espanhol ou Frederico é francês",
-        ],
-        answer: "b",
-    },
-    {
-        question: "Mat -> Se Luís estuda História, então Pedro estuda Matemática. Se Helena estuda Filosofia, então Jorge estuda Medicina. Ora, Luís estuda História ou Helena estuda Filosofia. Logo, segue-se necessariamente que:",
-        options: [
-            "a) Pedro estuda Matemática ou Jorge estuda Medicina",
-            "b) Pedro estuda Matemática e Jorge estuda Medicina",
-            "c) Se Luís não estuda História, então Jorge não estuda Medicina",
-            "d) Helena estuda Filosofia e Pedro estuda Matemática",
+            "a) § 1° Ao Sistema Único de Saúde (SUS) caberá um quarto da receita de que trata o inciso I deste artigo, apurada mensalmente, a qual será destinada à recuperação de viciados.",
+            "b) § 2° As receitas geradas no âmbito do Sistema Único de Saúde (SUS) serão creditadas diretamente em contas especiais, movimentadas pela sua direção, na esfera de poder onde forem arrecadadas.",
+            "c) § 3º As ações de saneamento que venham a ser executadas supletivamente pelo Sistema Único de Saúde (SUS), serão financiadas por recursos tarifários específicos e outros da União, Estados, Distrito Federal, Municípios e, em particular, do Sistema Financeiro da Habitação (SFH).",
+            "d) § 5º As atividades de pesquisa e desenvolvimento científico e tecnológico em saúde serão co-financiadas pelo Sistema Único de Saúde (SUS), pelas universidades e pelo orçamento fiscal, além de recursos de instituições de fomento e financiamento ou de origem externa e receita própria das instituições executoras.",
         ],
         answer: "a",
     },
     {
-        question: "Gerais -> Quais os países que mais têm recebido refugiados ucranianos?",
+        question: "Lei nº 8.080 - Quanto à Gestão Financeira, está incorreto:",
         options: [
-            "a) Polônia e República Tcheca",
-            "b) Bulgária e Eslováquia",
-            "c) Polônia e Eslováquia",
-            "d) República Tcheca e Bulgária",
+            "a) Art. 33. Os recursos financeiros do Sistema Único de Saúde (SUS) serão depositados em conta especial, em cada esfera de sua atuação, e movimentados sob fiscalização dos respectivos Tribunais de Contas.",
+            "b) § 1º Na esfera federal, os recursos financeiros, originários do Orçamento da Seguridade Social, de outros Orçamentos da União, além de outras fontes, serão administrados pelo Ministério da Saúde, através do Fundo Nacional de Saúde.",
+            "c) § 4º O Ministério da Saúde acompanhará, através de seu sistema de auditoria, a conformidade à programação aprovada da aplicação dos recursos repassados a Estados e Municípios. Constatada a malversação, desvio ou não aplicação dos recursos, caberá ao Ministério da Saúde aplicar as medidas previstas em lei.",
+            "d) Art. 34. As autoridades responsáveis pela distribuição da receita efetivamente arrecadada transferirão automaticamente ao Fundo Nacional de Saúde (FNS), observado o critério do parágrafo único deste artigo, os recursos financeiros correspondentes às dotações consignadas no Orçamento da Seguridade Social, a projetos e atividades a serem executados no âmbito do Sistema Único de Saúde (SUS).",
         ],
         answer: "a",
     },
     {
-        question: "Gerais -> Xi Jinping, Emmanuel Macron e Volodymyr Zelensky são, respectivamente, os governantes de quais países?",
-        options: [
-            "a) Japão, França e Rússia",
-            "b) Coreia do Norte, Alemanha e Ucrânia",
-            "c) China, França e Ucrânia",
-            "d) Taiwan, Bélgica e Rússia",
-        ],
-        answer: "c",
-    },
-    {
-        question: "Gerais -> Qual o nome do líder da Coreia do Norte?",
-        options: [
-            "a) Pak Pong-ju",
-            "b) Kim Jong-un",
-            "c) Kim Jong-Il",
-            "d) Moon Jae-in",
-        ],
-        answer: "b",
-    },
-    {
-        question: "Saúde -> Lei nº 8.142 de 1990 - __________________reunir-se-á a cada quatro anos com a representação dos vários segmentos sociais, para avaliar a situação de saúde e propor as diretrizes para a formulação da política de saúde nos níveis correspondentes, convocada pelo Poder Executivo ou, extraordinariamente, por esta ou pelo Conselho de Saúde.",
+        question: "Lei nº 8.142 - __________________reunir-se-á a cada quatro anos com a representação dos vários segmentos sociais, para avaliar a situação de saúde e propor as diretrizes para a formulação da política de saúde nos níveis correspondentes, convocada pelo Poder Executivo ou, extraordinariamente, por esta ou pelo Conselho de Saúde.",
         options: [
             "a) A Conferência de Saúde",
             "b) O Conselho de Saúde",
@@ -230,7 +231,7 @@ const data = [
         answer: "c",
     },
     {
-        question: "Saúde -> A Lei nº 8.080, de 19 de setembro de 1990, Capítulo II versa sobre princípios do SUS – Sistema Único de Saúde, que garantem o acesso e a qualidade do atendimento prestado. Quando em um atendimento se deixa de realizar as ações e serviços preventivos e curativos, individuais e coletivos, exigidos para cada caso em todos os níveis de complexidade do sistema, qual princípio do SUS está sendo desrespeitado?",
+        question: "A Lei nº 8.080 Capítulo II versa sobre princípios do SUS – Sistema Único de Saúde, que garantem o acesso e a qualidade do atendimento prestado. Quando em um atendimento se deixa de realizar as ações e serviços preventivos e curativos, individuais e coletivos, exigidos para cada caso em todos os níveis de complexidade do sistema, qual princípio do SUS está sendo desrespeitado?",
         options: [
             "a) Integralidade",
             "b) Universalidade",
@@ -250,7 +251,7 @@ const data = [
         answer: "b",
     },
     {
-        question: "Espec -> São finalidades da auditoria do SUS, exceto:",
+        question: "SNA -> São finalidades da auditoria do SUS, exceto:",
         options: [
             "a) Aferir a observância dos padrões estabelecidos de qualidade, quantidade, custos e gastos da atenção à saúde;",
             "b) Avaliar familiaridade com as normas e a legislação aplicáveis, entendimento das operações da entidade auditada e habilidade e experiência para exercer julgamento profissional;",
@@ -260,7 +261,7 @@ const data = [
         answer: "b",
     },
     {
-        question: "Espec -> Questões de auditoria podem ser de quatro tipos. Qual a definição de Questões avaliativas (ou de impacto)?",
+        question: "SNA -> Questões de auditoria podem ser de quatro tipos. Qual a definição de Questões avaliativas (ou de impacto)?",
         options: [
             "a) São formuladas de maneira a descrever condições de implementação ou de operação de um programa ou atividade, mudanças ocorridas, problemas e áreas com potencial de aperfeiçoamento",
             "b) tratam de comparações entre a situação existente e aquela estabelecida em norma, padrão ou meta, tanto de caráter qualitativo quanto quantitativo.",
@@ -270,7 +271,7 @@ const data = [
         answer: "c",
     },
     {
-        question: "Espec -> Questões de auditoria podem ser de quatro tipos. Qual a definição de Questões normativas?",
+        question: "SNA -> Questões de auditoria podem ser de quatro tipos. Qual a definição de Questões normativas?",
         options: [
             "a) São formuladas de maneira a descrever condições de implementação ou de operação de um programa ou atividade, mudanças ocorridas, problemas e áreas com potencial de aperfeiçoamento",
             "b) tratam de comparações entre a situação existente e aquela estabelecida em norma, padrão ou meta, tanto de caráter qualitativo quanto quantitativo.",
@@ -280,7 +281,7 @@ const data = [
         answer: "b",
     },
     {
-        question: "Espec -> PORTARIA Nº 2.979 - > Quantitativo potencial de pessoas cadastradas por equipe - de acordo com a classificação geográfica do município (IBGE)",
+        question: "PORTARIA Nº 2.979 - > Quantitativo potencial de pessoas cadastradas por equipe - de acordo com a classificação geográfica do município (IBGE)",
         options: [
             "a) Urbano -> 5.000, modalidade I -20h: 2.000, modalidade II - 30 h: 3.000",
             "b) Adjacente -> 2.750, modalidade I -20h: 1.375, modalidade II - 30 h: 2.063",
@@ -290,7 +291,7 @@ const data = [
         answer: "b",
     },
     {
-        question: "Espec -> PORTARIA Nº 2.979 - > A nova forma de financiamento, pelo Ministério da Saúde, das ações da Atenção Primária em Saúde desenvolvidas nos municípios é denominada de Programa:",
+        question: "PORTARIA Nº 2.979 - > A nova forma de financiamento, pelo Ministério da Saúde, das ações da Atenção Primária em Saúde desenvolvidas nos municípios é denominada de Programa:",
         options: [
             "a) Nacional de Atenção Básica.",
             "b) Previne Brasil.",
@@ -300,7 +301,7 @@ const data = [
         answer: "a",
     },
     {
-        question: "Espec -> PORTARIA Nº 2.979 - > Assinale a alternativa incorreta.",
+        question: "PORTARIA Nº 2.979 - > Assinale a alternativa incorreta.",
         options: [
             "a) Os recursos do financiamento federal serão transferidos na modalidade fundo a fundo, de forma regular e automática aos entes e repassados pelo Bloco de Custeio das Ações e Serviços Públicos de Saúde.",
             "b) O cálculo da Capitação Ponderada deve considerar a população adscrita para equipe de Saúde da Família, o índice de vulnerabilidade e o perfil demográfico da área.",
@@ -310,7 +311,7 @@ const data = [
         answer: "b",
     },
     {
-        question: "Espec -> PORTARIA Nº 2.979 - > Assinale a alternativa incorreta.",
+        question: "PORTARIA Nº 2.979 - > Assinale a alternativa incorreta.",
         options: [
             "a) O financiamento federal de custeio da Atenção Primária à Saúde (APS) será constituído por: capitação ponderada, pagamento por desempenho e incentivo para ações estratégicas e incentivo financeiro com base em critério populacional.",
             "b) O critério de perfil demográfico por faixa etária contempla pessoas cadastradas com idade até 5 (cinco) anos e com 65 (sessenta e cinco) anos ou mais.",
@@ -320,7 +321,7 @@ const data = [
         answer: "d",
     },
     {
-        question: "Espec -> LEI Nº 8.142: Art. 2° Os recursos do Fundo Nacional de Saúde (FNS) serão alocados como: (EXCETO)",
+        question: "LEI Nº 8.142: Art. 2° Os recursos do Fundo Nacional de Saúde (FNS) serão alocados como: (EXCETO)",
         options: [
             "a) I - despesas de custeio e de capital do Ministério da Saúde, seus órgãos e entidades, da administração direta e indireta;",
             "b) II - investimentos previstos em lei orçamentária, de iniciativa do Congresso Nacional e aprovados pelo Poder Legislativo;",
@@ -330,7 +331,7 @@ const data = [
         answer: "b",
     },
     {
-        question: "Espec -> LEI Nº 8.142: Art. 2° Os recursos do Fundo Nacional de Saúde (FNS) serão alocados como: (EXCETO)",
+        question: "LEI Nº 8.142: Art. 2° Os recursos do Fundo Nacional de Saúde (FNS) serão alocados como: (EXCETO)",
         options: [
             "a) I - despesas de custeio e de capital do Ministério da Saúde, seus órgãos e entidades, da administração direta e indireta;",
             "b) II - investimentos previstos em lei orçamentária, de iniciativa do Poder Legislativo e aprovados pelo Congresso Nacional;",

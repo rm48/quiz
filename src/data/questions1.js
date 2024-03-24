@@ -1,206 +1,206 @@
 const data = [
-    {
-        question: "Port -> Em “É feliz o homem que trabalha”, o vocábulo que desempenha função de",
-        options: [
-            "a) sujeito.",
-            "b) objeto indireto.",
-            "c) objeto direto.",
-            "d) complemento nominal.",
-        ],
-        answer: "a",
-    },
-    {
-        question: "Port -> Na frase “As loucuras que fizemos ontem chegaram ao limite.”, o tempo grifado tem função de",
-        options: [
-            "a) sujeito simples.",
-            "b) objeto indireto.",
-            "c) objeto direto.",
-            "d) complemento nominal.",
-        ],
-        answer: "c",
-    },
   {
-    question: "Port -> Quanto à concordância verbal, está de acordo com a norma culta:",
+    question: "Lei 8080 -> Art. 15. A União, os Estados, o Distrito Federal e os Municípios exercerão, em seu âmbito administrativo, as seguintes atribuições: (EXCETO)",
     options: [
-      "a) não podem haver transparências",
-      "b) não hão de existir transparências",
-      "c) não deve existir transparências",
-      "d) não houveram transparências",
+      "a) I - definição das instâncias e mecanismos de controle, avaliação e de fiscalização das ações e serviços de saúde;",
+      "b) II - administração dos recursos orçamentários e financeiros destinados, em cada ano, à saúde;",
+      "c) III - acompanhamento, avaliação e divulgação do nível de saúde da população e das condições ambientais;",
+      "d) XII - controlar e fiscalizar procedimentos, produtos e substâncias de interesse para a saúde;",
+    ],
+    answer: "d",
+  },
+  {
+    question: "Lei 8080 -> Art. 15. A União, os Estados, o Distrito Federal e os Municípios exercerão, em seu âmbito administrativo, as seguintes atribuições: (EXCETO)",
+    options: [
+      "a) IV - organização e coordenação do sistema de informação de saúde;",
+      "b) V - elaboração de normas técnicas e estabelecimento de padrões de qualidade e parâmetros de custos que caracterizam a assistência à saúde;",
+      "c) VI - elaboração de normas técnicas e estabelecimento de padrões de qualidade para promoção da saúde do trabalhador;",
+      "d) XI - identificar os serviços estaduais e municipais de referência nacional para o estabelecimento de padrões técnicos de assistência à saúde;",
+    ],
+    answer: "d",
+  },
+  {
+    question: "Lei 8080 -> Art. 15. A União, os Estados, o Distrito Federal e os Municípios exercerão, em seu âmbito administrativo, as seguintes atribuições: (EXCETO)",
+    options: [
+      "a) I - formular, avaliar e apoiar políticas de alimentação e nutrição;",
+      "b) VII - participação de formulação da política e da execução das ações de saneamento básico e colaboração na proteção e recuperação do meio ambiente;",
+      "c) VIII - elaboração e atualização periódica do plano de saúde;",
+      "d) IX - participação na formulação e na execução da política de formação e desenvolvimento de recursos humanos para a saúde;",
+    ],
+    answer: "a",
+  },
+  {
+    question: "Lei 8080 -> Art. 16. À direção nacional do SUS compete: III - definir e coordenar os sistemas: (EXCETO)",
+    options: [
+      "a) de redes integradas de assistência de alta complexidade;",
+      "b) de rede de laboratórios de saúde pública;",
+      "c) de vigilância ambiental",
+      "d) vigilância sanitária;",
+    ],
+    answer: "c",
+  },
+  {
+    question: "Lei 8080 -> Art. 16. À direção nacional do SUS compete: II - participar na formulação e na implementação das políticas: (EXCETO)",
+    options: [
+      "a) de controle das agressões ao meio ambiente;",
+      "b) de saneamento básico",
+      "c) de pesquisas e estudos na área de saúde",
+      "d) relativas às condições e aos ambientes de trabalho",
+    ],
+    answer: "c",
+  },
+  {
+    question: "Lei 8080 -> Art. 17. À direção estadual do SUS compete:",
+    options: [
+      "a) II - acompanhar, controlar e avaliar as redes hierarquizadas do Sistema Único de Saúde (SUS);",
+      "b) II - participar na formulação e na implementação das políticas de controle das agressões ao meio ambiente",
+      "c) III - definir e coordenar os sistemas de redes integradas de assistência de alta complexidade;",
+      "d) I - formular, avaliar e apoiar políticas de alimentação e nutrição",
+    ],
+    answer: "a",
+  },
+  {
+    question: "Lei 8080 -> Dos Princípios e Diretrizes - Art. 7º",
+    options: [
+      "a) IV - igualdade da assistência à saúde, vedados os privilégios de qualquer espécie;",
+      "b) VI - divulgação de informações quanto ao potencial dos serviços de saúde e a sua utilização pelo usuário;",
+      "c) VII - utilização da vigilância sanitária para o estabelecimento de prioridades, a alocação de recursos e a orientação programática;",
+      "d) VIII - participação da iniciativa privada",
     ],
     answer: "b",
   },
   {
-    question: "Portug -> E, claro, qualquer tuíte feito 'por' Elon Musk pertence 'a' 'uma' categoria especial, só 'dele', que pode ser governada 'por' regras distintas.",
+    question: "Lei 8080 -> Dos Princípios e Diretrizes - Art. 7º",
     options: [
-      "a) nenhum artigo e três preposições",
-      "b) nenhum artigo e quatro preposições",
-      "c) um artigo e três preposições",
-      "d) um artigo e quatro preposições",
+      "a) IX - centralização político-administrativa, com direção única em cada esfera de governo:",
+      "b) X - integração em nível executivo das ações de saúde, meio ambiente e epidemiologia;",
+      "c) XI - conjugação dos recursos financeiros, tecnológicos, materiais e humanos da União na assistência à população;",
+      "d) XII - capacidade de resolução dos serviços em todos os níveis de assistência",
     ],
     answer: "d",
   },
   {
-    question: "Portug -> Quanto à preposição, está de acordo com a norma culta:",
+    question: "Lei 8080 -> Dos Princípios e Diretrizes - Art. 7º",
     options: [
-      "a) Apesar do progresso ter chegado à cidade.",
-      "b) Ele falou sobre os amigos e familiares.",
-      "c) Ele é leal aos amigos e familiares.",
-      "d) Ao persistirem os sintomas, o médico deverá ser consultado.",
-    ],
-    answer: "c",
-  },
-  {
-    question: "Portug -> Não há correspondência na classificação do QUE em",
-    options: [
-      "a) Gosto de bailes, longes que sejam, (pronome relativo)",
-      "b) Disseram que o avião caiu. (conjunção integrante)",
-      "c) Faço votos que vocês sejam felizes, (conj. subord.final)",
-      "d) Tenha calma, que o ajudarei, (conj. coord. explicativa)",
-    ],
-    answer: "a",
-  },
-  {
-    question: "Portug -> A função sintática do QUE só está INCORRETA em",
-    options: [
-      "a) Eles pegaram não vi bem o quê. (objeto direto)",
-      "b) Passarinho que na água se cria por ela pia, (sujeito)",
-      "c) Que idéias você teve! (adjunto adnominal)",
-      "d) Que bondoso foi o senhor que me socorreu! (adj.adv. intensidade)",
-    ],
-    answer: "c",
-  },
-  {
-    question: "Portug -> Indique a alternativa em que é ERRADO colocar, junto à palavra destacada, o artigo definido.",
-    options: [
-      "a) Afundou na lama AMBOS os pés.",
-      "b) TODOS os dias passava por lá, sem vê-la.",
-      "c) TODA a noite gotejou a torneira; não pude dormir.",
-      "d) A TODO o passante perguntei, nenhum me informou.",
+      "a) XII - capacidade de resolução dos agravos em todos os níveis de assistência;",
+      "b) XIII - organização dos serviços públicos de modo a evitar duplicidade de meios para fins diferentes",
+      "c) XIV – organização de atendimento público específico e especializado para vítimas de violência em geral,",
+      "d) XV – proteção integral dos direitos humanos de todos os usuários e especial atenção à identificação de maus-tratos, de negligência e de violência sexual praticados contra crianças e adolescentes.",
     ],
     answer: "d",
   },
   {
-    question: "Portug -> Em que opção o artigo definido denota familiaridade?",
+    question: "Lei 8080 -> Da Organização, da Direção e da Gestão ",
     options: [
-      "a) O Amazonas é um rio imenso.",
-      "b) D. Manoel, o Venturoso, era bastante esperto.",
-      "c) O Antônio comunicou-se com o Japão.",
-      "d) O professor João Ribeiro está doente.",
+      "a) Art. 8º As ações e serviços de saúde, executados pelo Sistema Único de Saúde (SUS), seja diretamente ou mediante participação complementar da iniciativa privada, serão organizados de forma regionalizada e hierarquizada em níveis de complexidade decrescente.",
+      "b) Art. 10. Os municípios poderão constituir consórcios para desenvolver em conjunto as ações e os serviços de saúde que lhes correspondam.",
+      "c) § 1º Aplica-se aos consórcios administrativos intermunicipais o princípio da direção constitutiva.",
+      "d) § 2º No nível municipal, o Sistema Único de Saúde (SUS), poderá organizar-se em regiões de forma a integrar e articular recursos, técnicas e práticas voltadas para a cobertura total das ações de saúde.",
+    ],
+    answer: "b",
+  },
+  {
+    question: "Lei 8080 -> Art. 17. À direção estadual do Sistema Único de Saúde (SUS) compete: IV - coordenar e, em caráter complementar, executar ações e serviços:",
+    options: [
+      "a) de vigilância epidemiológica; de vigilância sanitária; de alimentação e nutrição; de saúde do trabalhador;",
+      "b) de redes integradas de assistência de alta complexidade; de rede de laboratórios de saúde pública; de vigilância epidemiológica; de vigilância sanitária;",
+      "c) de vigilância epidemiológica; de vigilância sanitária; de saneamento básico; de saúde do trabalhador;",
+      "d) de controle das agressões ao meio ambiente; de saneamento básico; relativas às condições e aos ambientes de trabalho;",
+    ],
+    answer: "a",
+  },
+  {
+    question: "Lei 8080 -> Art. 17. À direção estadual do Sistema Único de Saúde (SUS) compete: (EXCETO)",
+    options: [
+      "a) I - promover a descentralização para os Municípios dos serviços e das ações de saúde;.",
+      "b) II - acompanhar, controlar e avaliar as redes hierarquizadas do Sistema Único de Saúde (SUS);",
+      "c) III - prestar apoio técnico, excluindo o financeiro, aos Municípios e executar supletivamente ações e serviços de saúde;",
+      "d) V - participar, junto com os órgãos afins, do controle dos agravos do meio ambiente que tenham repercussão na saúde humana;",
     ],
     answer: "c",
   },
   {
-    question: "Portug -> Na frase “O esforço que fizera para erguer meio corpo não durou muito.”, assinale a única opção INCORRETA.",
+    question: "Lei 8080 -> Art. 18. À direção municipal do SUS compete:",
     options: [
-      "a) que - sujeito de fizera.",
-      "b) esforço - sujeito de durou.",
-      "c) muito - adjunto adverbial de intensidade.",
-      "d) meio - adjunto adnominal de “corpo”.",
+      "a) XII - formular normas e estabelecer padrões, em caráter suplementar, de procedimentos de controle de qualidade para produtos e substâncias de consumo humano;",
+      "b) XI - controlar e fiscalizar os procedimentos dos serviços privados de saúde;",
+      "c) XIV - o acompanhamento, a avaliação e divulgação dos indicadores de morbidade e mortalidade no âmbito da unidade federada.",
+      "d) XVIII - elaborar o Planejamento Estratégico Regional no âmbito do SUS,",
+    ],
+    answer: "b",
+  },
+  {
+    question: "Lei 8080 -> Art. 18. À direção municipal do SUS compete: (EXCETO)",
+    options: [
+      "a) I - planejar, organizar, controlar e avaliar as ações e os serviços de saúde e gerir e executar os serviços públicos de saúde;",
+      "b) I - formular, avaliar e apoiar políticas de alimentação e nutrição;",
+      "c) V - dar execução, no âmbito municipal, à política de insumos e equipamentos para a saúde;",
+      "d) VI - colaborar na fiscalização das agressões ao meio ambiente que tenham repercussão sobre a saúde humana e atuar, junto aos órgãos municipais, estaduais e federais competentes, para controlá-las;",
+    ],
+    answer: "b",
+  },
+  {
+    question: "Lei 8080 ->  Art. 18. À direção municipal do SUS compete:",
+    options: [
+      "a) I - planejar, organizar, controlar e avaliar as ações e os serviços de saúde e gerir e executar os serviços públicos de saúde;",
+      "b) I - formular, avaliar e apoiar políticas de alimentação e nutrição;",
+      "c) III - definir e coordenar os sistemas de redes integradas de assistência de alta complexidade;",
+      "d) II - participar na formulação e na implementação das políticas de controle das agressões ao meio ambiente;",
     ],
     answer: "a",
   },
   {
-    question: "Mat -> Qual está incorreta?",
+    question: "Lei 8080 -> Art. 14-A.  As Comissões Intergestores Bipartite e Tripartite são reconhecidas como foros de negociação e pactuação entre gestores, e terá por objetivo:",
     options: [
-      "a) ou... ou iguais = F",
-      "b) V -> F = F",
-      "c) V <-> V = V",
-      "d) V <-> F = V",
-    ],
-    answer: "d",
-  },
-  {
-    question: "Mat -> Qual está incorreta?",
-    options: [
-      "a) F <-> F = V",
-      "b) ou... ou dif = V",
-      "c) F ou F = V",
-      "d) F -> F = V",
+      "a) I - definição das instâncias e mecanismos de controle, avaliação e de fiscalização das ações e serviços de saúde;",
+      "b) II - coordenar os sistemas de informação de saúde",
+      "c) III - fixar diretrizes sobre as regiões de saúde,",
+      "d) IX - participação na formulação e na execução da política de formação e desenvolvimento de recursos humanos para a saúde;",
     ],
     answer: "c",
   },
   {
-    question: "Mat -> Qual está incorreta?",
+    question: "Lei 8080 -> Dos Princípios e Diretrizes - Art. 7º",
     options: [
-      "a) V e F = V",
-      "b) V ou F = V",
-      "c) ou... ou dif = V",
-      "d) ou... ou iguais = F",
+      "a) I - equidade de acesso aos serviços de saúde em todos os níveis de assistência;",
+      "b) II - integralidade de assistência, entendida como conjunto articulado e contínuo das ações e serviços preventivos e curativos, individuais e coletivos, exigidos para cada caso em todos os níveis de facilidade do sistema;",
+      "c) III - preservação da autonomia das pessoas na defesa de sua integridade física e moral;",
+      "d) V - direito à formação, às pessoas assistidas",
     ],
-    answer: "a",
+    answer: "c",
   },
   {
-    question: "Mat -> Qual está incorreta?",
+    question: "Lei 8080 -> Art. 14-B.  O Conselho Nacional de Secretários de Saúde (Conass) e o Conselho Nacional de Secretarias Municipais de Saúde (Conasems)",
     options: [
-      "a) ou.. ou iguais = V",
-      "b) F -> V = V",
-      "c) V <-> F = F",
-      "d) F <-> F = V",
+      "a) são reconhecidos como entidades representativas da União para tratar de matérias referentes à saúde",
+      "b) são declarados de utilidade pública e de relevante função social, na forma do regulamento",
+      "c) receberão recursos do orçamento geral da União por meio do Fundo de Seguridade Social, para auxiliar no custeio de suas despesas institucionais, podendo ainda celebrar convênios com a União.",
+      "d) Os Conselhos de Secretarias Municipais de Saúde (Cosems) são reconhecidos como entidades que representam os entes municipais, no âmbito federal, para tratar de matérias referentes à saúde, desde que vinculados institucionalmente ao Conasems",
     ],
-    answer: "a",
+    answer: "b",
   },
   {
-    question: "Mat -> Qual está incorreta?",
+    question: "Lei 8080 -> Art. 14-A.  São reconhecidas como foros de negociação e pactuação entre gestores, quanto aos aspectos operacionais do Sistema Único de Saúde (SUS).",
     options: [
-      "a) V -> F = F",
-      "b) V -> V = V",
-      "c) F -> F = V",
-      "d) F -> V = F",
+      "a) O Conselho Nacional de Secretários de Saúde (Conass) e o Conselho Nacional de Secretarias Municipais de Saúde (Conasems)",
+      "b) Os Conselhos de Secretarias Municipais de Saúde (Cosems)",
+      "c) As comissões intersetoriais",
+      "d) As Comissões Intergestores Bipartite e Tripartite",
     ],
     answer: "d",
   },
-   {
-        question: "Port -> A posição do pronome oblíquo é facultativa em:",
-        options: [
-            "a) “Escapar, na liberdade do pensamento, desse espírito de manada que trabalha obstinadamente para nos enquadrar, seja lá no que for”.",
-            "b) “O mundo em si não tem sentido sem o nosso olhar que lhe atribui identidade, sem o nosso pensamento que lhe confere alguma ordem”.",
-            "c) Questionar o que nos é imposto, sem rebeldias insensatas, mas sem demasiada sensatez”.",
-            "d) “Sonhar, porque se desistimos disso apaga-se a última claridade e nada mais valerá a pena”.",
-        ],
-        answer: "a",
-    },
-    {
-        question: "Port -> Em: “Se nos escondermos num canto escuro abafando nossos questionamentos, não es- cutaremos o rumor do vento nas árvores do mundo”, se alterarmos o tempo do verbo esconder para o pretérito imperfeito do subjuntivo, escondêssemos, o verbo escutar será",
-        options: [
-            "a) escutamos.",
-            "b) escutaremos.",
-            "c) escutaríamos.",
-            "d) escutássemos.",
-        ],
-        answer: "c",
-    },
-    {
-        question: "Port -> Em: “Mamãe me 'punha' para fora quando a história era mais pesada.”, punha está flexionado no",
-        options: [
-            "a) Pretérito imperfeito do indicativo.",
-            "b) Pretérito imperfeito do subjuntivo.",
-            "c) Pretérito mais que perfeito do indicativo.",
-            "d) Pretérito perfeito do indicativo.",
-        ],
-        answer: "a",
-    },
-    {
-        question: "Port -> Nos verbos destacados, há ERRO de regência em:",
-        options: [
-            "a) “[...] alguém me 'oferece' meio copo de suco de laranja e posso dizer”.",
-            "b) “Até mesmo 'conferir' revistas sobre celebridades, uma forma de exercitar a imaginação[...]”.",
-            "c) “Isso me 'ajudou' a desenvolver um certo talento.”",
-            "d) “'Paga' uma família para cuidar da menina, Cosette”.",
-        ],
-        answer: "d",
-    },
-    {
-        question: "Port -> A posição do pronome oblíquo é facultativa em:",
-        options: [
-            "a) “[...] com a taça de vinho emprestada de alguém, num hotel onde não 'se' hos-pedaram”.",
-            "b) “Alguns 'se' contentam botando posts no Instagram,inventando uma vida que não têm[...]”.",
-            "c) “Isso 'me' a desenvolver um certo talento”.",
-            "d) “Mas a questão é que a pobre Fantine teve de vender os dentes e 'se' prostituir devido à avidez da fofoca”.",
-        ],
-        answer: "d",
-    },
   {
-    question: "Saúde -> De acordo com a lei 8.080/1990, dos objetivos e atribuições, quais execuções e ações estão incluídas no campo de atuação do Sistema Único de Saúde (SUS)?",
+    question: "Lei 8080 -> Art. 14-A. A atuação das Comissões Intergestores Bipartite e Tripartite terá por objetivo:",
+    options: [
+      "a) I - decidir sobre os aspectos operacionais, financeiros e tecnológicos da gestão compartilhada do SUS",
+      "b) II - definir diretrizes, de âmbito estritamente intermunicipal, a respeito da organização das redes de ações e serviços de saúde",
+      "c) III - fixar diretrizes sobre as regiões de saúde, distrito sanitário, integração de territórios, referência e contrarreferência",
+      "d) IV - divulgação de informações quanto ao potencial dos serviços de saúde e a sua utilização pelo usuário;",
+    ],
+    answer: "c",
+  },
+  {
+    question: "De acordo com a lei 8.080/1990, dos objetivos e atribuições, quais execuções e ações estão incluídas no campo de atuação do Sistema Único de Saúde (SUS)?",
     options: [
       "a) Vigilância sanitária; vigilância epidemiológica; saúde do trabalhador; assistência terapêutica integral, inclusive farmacêutica.",
       "b) Vigilância sanitária; vigilância epidemiológica.",
@@ -220,17 +220,17 @@ const data = [
     answer: "a",
   },
   {
-    question: "Saúde -> O que compete à direção nacional do Sistema Único de Saúde (SUS)?",
+    question: "Lei 8080 Seção II - Da Competência - Art. 16. A direção nacional do Sistema Único da Saúde (SUS) compete:",
     options: [
-      "a) Formular, avaliar e apoiar políticas de alimentação e nutrição.",
-      "b) Definir e coordenar os sistemas de saúde",
-      "c) Estabelecer critérios, parâmetros e métodos para o controle da qualidade sanitária de produtos, substâncias e serviços de consumo e uso humano",
+      "a) I - formular, avaliar e apoiar políticas de alimentação e nutrição;",
+      "b) III - definir e coordenar os sistemas de saúde",
+      "c) VIII - estabelecer critérios, parâmetros e métodos para o controle da qualidade sanitária de produtos, substâncias e serviços de consumo e uso humano;",
       "d) Todas as alternativas estão corretas",
     ],
     answer: "d",
   },
   {
-    question: "Saúde -> A Lei nº 8080/1990 dispõe sobre as condições para a promoção, proteção e recuperação da saúde, a organização e o funcionamento dos serviços correspondentes e dá outras providências. São objetivos do SUS:",
+    question: "A Lei nº 8080/1990 dispõe sobre as condições para a promoção, proteção e recuperação da saúde, a organização e o funcionamento dos serviços correspondentes e dá outras providências. São objetivos do SUS:",
     options: [
       "a) Identificação e divulgação dos fatores condicionantes e determinantes da saúde",
       "b) Formulação de política de saúde destinada a promover, nos campos econômico e social, a observância do disposto no § 1º do art. 2º da lei",
@@ -250,7 +250,7 @@ const data = [
     answer: "b",
   },
   {
-    question: "Espec -> São finalidades da auditoria do SUS, exceto:",
+    question: "SNA -> São finalidades da auditoria do SUS, exceto:",
     options: [
       "a) Aferir a observância dos padrões estabelecidos de qualidade, quantidade, custos e gastos da atenção à saúde;",
       "b) Avaliar os elementos componentes dos processos da instituição, serviço ou sistema auditado, objetivando a melhoria dos procedimentos, por meio da detecção de desvios dos padrões estabelecidos;",
@@ -260,7 +260,7 @@ const data = [
     answer: "d",
   },
   {
-    question: "Espec -> PORTARIA Nº 2.979 - > Art. 9º O financiamento federal de custeio da Atenção Primária à Saúde (APS) será constituído por: (EXCETO)",
+    question: "PORTARIA Nº 2.979 - > Art. 9º O financiamento federal de custeio da Atenção Primária à Saúde (APS) será constituído por: (EXCETO)",
     options: [
       "a) incentivo para ações estratégicas",
       "b) classificação geográfica definida pelo IBGE",
@@ -270,7 +270,7 @@ const data = [
     answer: "b",
   },
   {
-    question: "Espec -> São Princípios Éticos e Profissionais, exceto",
+    question: "SNA -> São Princípios Éticos e Profissionais, exceto",
     options: [
       "a) Independência;  Competência e capacidade profissional; Sigilo;",
       "b) Imparcialidade; Ceticismo e julgamento profissional; Cortesia;",
@@ -280,7 +280,7 @@ const data = [
     answer: "d",
   },
   {
-    question: "Espec -> Questões de auditoria podem ser de quatro tipos. Qual a definição de Questões descritivas?",
+    question: "SNA -> Questões de auditoria podem ser de quatro tipos. Qual a definição de Questões descritivas?",
     options: [
       "a) São formuladas de maneira a descrever condições de implementação ou de operação de um programa ou atividade, mudanças ocorridas, problemas e áreas com potencial de aperfeiçoamento",
       "b) tratam de comparações entre a situação existente e aquela estabelecida em norma, padrão ou meta, tanto de caráter qualitativo quanto quantitativo.",
@@ -290,7 +290,7 @@ const data = [
     answer: "a",
   },
   {
-    question: "Espec -> Questões de auditoria podem ser de quatro tipos. Qual a definição de Questões exploratórias?",
+    question: "SNA -> Questões de auditoria podem ser de quatro tipos. Qual a definição de Questões exploratórias?",
     options: [
       "a) São formuladas de maneira a descrever condições de implementação ou de operação de um programa ou atividade, mudanças ocorridas, problemas e áreas com potencial de aperfeiçoamento",
       "b) tratam de comparações entre a situação existente e aquela estabelecida em norma, padrão ou meta, tanto de caráter qualitativo quanto quantitativo.",
@@ -300,7 +300,7 @@ const data = [
     answer: "d",
   },
   {
-    question: "Espec -> São informações que contribuem para obter visão geral do objeto a auditar e de seu contexto, exceto",
+    question: "SNA -> São informações que contribuem para obter visão geral do objeto a auditar e de seu contexto, exceto",
     options: [
       "a) Setores responsáveis, competências e atribuições",
       "b) Legislação aplicável",
@@ -310,7 +310,7 @@ const data = [
     answer: "d",
   },
   {
-    question: "Espec -> São informações que contribuem para obter visão geral do objeto a auditar e de seu contexto, exceto",
+    question: "SNA -> São informações que contribuem para obter visão geral do objeto a auditar e de seu contexto, exceto",
     options: [
       "a) Documentos emitidos por terceiros",
       "b) Pontos fracos e deficiências de controle",
@@ -320,7 +320,7 @@ const data = [
     answer: "a",
   },
   {
-    question: "Espec -> PORTARIA Nº 2.979 - > Art. 10. O cálculo para a definição dos incentivos financeiros da capitação ponderada deverá considerar: (EXCETO)",
+    question: "PORTARIA Nº 2.979 - > Art. 10. O cálculo para a definição dos incentivos financeiros da capitação ponderada deverá considerar: (EXCETO)",
     options: [
       "a) o PERFIL DEMOGRAFICO por faixa etária da população cadastrada na eSF e na eAP",
       "b) a PONTUAÇÃO DO MUNICÍPIO ou Distrito Federal para definição do cálculo de repasse",
@@ -330,7 +330,7 @@ const data = [
     answer: "b",
   },
   {
-    question: "Espec -> Art. 196. A saúde é direito de todos e dever do Estado, garantido mediante políticas _______ e _______ que visem à redução do risco de doença e de outros agravos e ao acesso _______ e _______  às ações e serviços para sua promoção, proteção e recuperação.",
+    question: "CF Art. 196. A saúde é direito de todos e dever do Estado, garantido mediante políticas _______ e _______ que visem à redução do risco de doença e de outros agravos e ao acesso _______ e _______  às ações e serviços para sua promoção, proteção e recuperação.",
     options: [
       "a) sociais - econômicas - universal - igualitário",
       "b) governamentais - estratégicas - nacional - permanente",
@@ -340,7 +340,7 @@ const data = [
     answer: "a",
   },
   {
-    question: "Espec -> Art. 197. São de relevância pública as ações e serviços de saúde, cabendo ao Poder Público dispor, nos termos da lei, sobre sua regulamentação,fiscalização e _______ , devendo sua execução ser feita diretamente ou através de terceiros e, também, por pessoa _______ de direito _______ .",
+    question: "CF Art. 197. São de relevância pública as ações e serviços de saúde, cabendo ao Poder Público dispor, nos termos da lei, sobre sua regulamentação,fiscalização e _______ , devendo sua execução ser feita diretamente ou através de terceiros e, também, por pessoa _______ de direito _______ .",
     options: [
       "a) aplicação, física ou jurídica, público",
       "b) controle, física ou jurídica, privado",
@@ -350,7 +350,7 @@ const data = [
     answer: "b",
   },
   {
-    question: "Espec -> Art. 198. As ações e serviços públicos de saúde integram uma rede regionalizada e hierarquizada e constituem um sistema único, organizado de acordo com as seguintes diretrizes: (EXCETO)",
+    question: "CF Art. 198. As ações e serviços públicos de saúde integram uma rede regionalizada e hierarquizada e constituem um sistema único, organizado de acordo com as seguintes diretrizes: (EXCETO)",
     options: [
       "a) descentralização, com direção única em cada esfera de governo;",
       "b) atendimento integral, com prioridade para as atividades preventivas, sem prejuízo dos serviços assistenciais;",
@@ -360,34 +360,34 @@ const data = [
     answer: "c",
   },
   {
-    question: "Espec -> Art. 199. A assistência à saúde é livre à iniciativa privada. (EXCETO)",
+    question: "CF Art. 199. A assistência à saúde é livre à iniciativa privada. (EXCETO)",
     options: [
-	  "a) As instituições privadas poderão participar de forma complementar do sistema único de saúde, segundo diretrizes deste, mediante contrato de direito público ou convênio, tendo preferência as entidades filantrópicas e as sem fins lucrativos.",
+      "a) As instituições privadas poderão participar de forma complementar do sistema único de saúde, segundo diretrizes deste, mediante contrato de direito público ou convênio, tendo preferência as entidades filantrópicas e as sem fins lucrativos.",
       "b) É vedada a destinação de recursos públicos para auxílios ou subvenções às instituições privadas com fins lucrativos.",
       "c) É vedada a participação direta ou indireta de empresas ou capitais estrangeiros na assistência à saúde no País, salvo nos casos previstos em lei.",
       "d) A lei não poderá dispor sobre as condições e os requisitos que facilitem a remoção de órgãos, tecidos e substâncias humanas para fins de transplante, pesquisa e tratamento, bem como a coleta, processamento e transfusão de sangue e seus derivados, sendo vedado todo tipo de comercialização."],
     answer: "d",
   },
   {
-    question: "Espec -> Art. 200. Ao sistema único de saúde compete, além de outras atribuições, nos termos da lei: (EXCETO)",
+    question: "CF Art. 200. Ao sistema único de saúde compete, além de outras atribuições, nos termos da lei: (EXCETO)",
     options: [
-	  "a) controlar e fiscalizar procedimentos, produtos e substâncias de interesse para a saúde e participar da produção de medicamentos, equipamentos, imunobiológicos, hemoderivados e outros insumos;",
+      "a) controlar e fiscalizar procedimentos, produtos e substâncias de interesse para a saúde e participar da produção de medicamentos, equipamentos, imunobiológicos, hemoderivados e outros insumos;",
       "b) executar as ações de vigilância sanitária e epidemiológica, bem como as de saúde do trabalhador;",
       "c) ordenar a formação de recursos médicos na área de saúde;",
       "d) participar da formulação da política e da execução das ações de saneamento básico;"],
     answer: "c",
   },
   {
-    question: "Espec ->  Art. 200. Ao sistema único de saúde compete, além de outras atribuições, nos termos da lei: (EXCETO)",
+    question: "CF Art. 200. Ao sistema único de saúde compete, além de outras atribuições, nos termos da lei: (EXCETO)",
     options: [
-	  "a) incrementar em sua área de atuação o desenvolvimento científico e tecnológico",
+      "a) incrementar em sua área de atuação o desenvolvimento científico e tecnológico",
       "b) fiscalizar e inspecionar líquidos, compreendido o controle de seu teor nutricional, bem como bebidas e águas para consumo humano;",
       "c) participar do controle e fiscalização da produção, transporte, guarda e utilização de substâncias e produtos psicoativos, tóxicos e radioativos",
       "d) colaborar na proteção do meio ambiente, nele compreendido o do trabalho"],
     answer: "b",
   },
   {
-    question: "Espec -> PORTARIA Nº 2.979 - > Art. 10. O cálculo para a definição dos incentivos financeiros da capitação ponderada deverá considerar: (EXCETO)",
+    question: "PORTARIA Nº 2.979 - > Art. 10. O cálculo para a definição dos incentivos financeiros da capitação ponderada deverá considerar: (EXCETO)",
     options: [
       "a) o ÍNDICE SOCIOECONÔMICO por faixa etária da população cadastrada na eSF e na eAP",
       "b) a CLASSIFICAÇÃO GEOGRÁFICA definida pelo IBGE",

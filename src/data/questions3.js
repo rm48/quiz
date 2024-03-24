@@ -1,4 +1,105 @@
 const data = [
+
+    {
+        question: "Portug -> Assinale o erro no emprego de pronomes.",
+        options: [
+            "a) Vossa Excelência, o senador, estará presente no congresso.",
+            "b) Tentaram falar com nós próprios.",
+            "c) Cada um sabe de si.",
+            "d) Carlos e Maria estavam na reunião. Aquele ficou calado o tempo todo; esta não parava de falar.",
+        ],
+        answer: "a",
+    },
+    {
+        question: "Portug -> Marque o erro na substituição do termo destacado por pronome oblíquo.",
+        options: [
+            "a) Quis os resultados. ->Qui-los.",
+            "b) Tens a casa. -> Tem-la.",
+            "c) Comprei os doces. -> Comprei-los.",
+            "d) Estudaram a situação. ->Estudaram-na.",
+        ],
+        answer: "c",
+    },
+    {
+        question: "Portug -> Marque o erro no emprego do pronome.",
+        options: [
+            "a) Sempre estaremos com vós todos.",
+            "b) Este livro em sua mão é bom?",
+            "c) Aqui está o vizinho cujo filho foi para a Itália.",
+            "d) Após mim, ninguém poderá entrar.",
+        ],
+        answer: "b",
+    },
+    {
+        question: "Portug -> Houve troca no emprego de o e lhe na seguinte sentença:",
+        options: [
+            "a) Àquele tio, sempre lhe deu atenção especial.",
+            "b) Esse escritor, sempre o vi nos congressos.",
+            "c) Nunca o faria qualquer mal.",
+            "d) Nunca o esconderia, mesmo se pudesse.",
+        ],
+        answer: "c",
+    },
+    {
+        question: "Portug -> Há erro de conjugação verbal em:",
+        options: [
+            "a) Medeia a reunião",
+            "b) A polícia interveio na briga.",
+            "c) Se você supuser que o seu plano dará certo, nós executá-lo-emos.",
+            "d) Quando eu te ver, vou te dar um abraço apertado!",
+        ],
+        answer: "d",
+    },
+    {
+        question: "Portug -> Há erro de conjugação verbal em:",
+        options: [
+            "a) Foi impresso",
+            "b) Tinha imprimido",
+            "c) Tinha impresso",
+            "d) Tinha chegado",
+        ],
+        answer: "c",
+    },
+    {
+        question: "Portug -> A conjugação verbal está correta em:",
+        options: [
+            "a) Se eu fosse você eu comprava aquela gravata.",
+            "b) O móvel não se adequa à sala.",
+            "c) Quando você pôr os pingos nos is.",
+            "d) Elas previram que ele viria.",
+        ],
+        answer: "d",
+    },
+    {
+        question: "Portug -> A colocação pronominal está correta em:",
+        options: [
+            "a) Deixa eu escrever.",
+            "b) Nada mais há entre mim e você.",
+            "c) Não era minha intenção te machucar.",
+            "d) Agora negam-se a depor",
+        ],
+        answer: "b",
+    },
+    {
+        question: "Portug -> Está correta:",
+        options: [
+            "a) Irei ao evento afim de praticar o networking",
+            "b) A sua ideia vem de encontro ao que a empresa precisa neste momento.",
+            "c) Ao invés de comprar carros, compraremos caminhões para aumentar a frota.",
+            "d) A prosperidade é iminente.",
+        ],
+        answer: "d",
+    },
+    {
+        question: "Mat -> Numa ilha há apenas dois tipos de pessoas: as que sempre falam a verdade e as que sempre mentem. Um explorador contrata um ilhéu chamado X para servir-lhe de intérprete. Ambos encontram outro ilhéu, chamado Y, e o explorador lhe pergunta se ele fala a verdade. Ele responde na sua língua e o intérprete diz - Ele disse que sim, mas ele pertence ao grupo dos mentirosos. Dessa situação é correto concluir que",
+        options: [
+            "a) Y fala a verdade.",
+            "b) ambos falam a verdade.",
+            "c) ambos mentem.",
+            "d) X fala a verdade.",
+        ],
+        answer: "d",
+    },
     {
         question: "Portug -> A alternativa que apresenta apenas dígrafos vocálicos, são:",
         options: [
@@ -99,7 +200,7 @@ const data = [
         ],
         answer: "c",
     },
-     {
+    {
         question: "Mat -> Dizer que ''Pedro não é pedreiro ou Paulo é paulista'' é, do ponto de vista lógico, o mesmo que dizer que:",
         options: [
             "a) se Pedro é pedreiro, então Paulo é paulista",
@@ -129,7 +230,7 @@ const data = [
         ],
         answer: "b",
     },
-  {
+    {
         question: "Mat -> Se o jardim não é florido, então o gato mia. Se o jardim é florido, então o passarinho não canta. Ora, o passarinho canta. Logo:",
         options: [
             "a) jardim é florido e o gato mia",
@@ -170,16 +271,16 @@ const data = [
         answer: "c",
     },
     {
-        question: "Saúde -> Art. 6º da lei 8080 -> Estão incluídas ainda no campo de atuação do Sistema Único de Saúde (SUS):",
+        question: "Portug -> Há erro no emprego de pronome em:",
         options: [
-            "a) vigilância socioassistencial; assistência terapêutica integral, inclusive farmacêutica; saúde bucal;",
-            "b) vigilância sanitária e epidemiológica; assistência terapêutica integral, inclusive farmacêutica; saúde do trabalhador; saúde bucal;",
-            "c) vigilância epidemiológica; assistência terapêutica integral, inclusive farmacêutica; saúde do trabalhador; saúde bucal;",
-            "d) vigilância sanitária e socioassistencial; assistência terapêutica integral; saúde do trabalhador; saúde bucal;",
+            "a) Isto é para eu levar",
+            "b) b) Nada restou entre você e eu.",
+            "c) Para mim, fazer o exercício é um prazer.",
+            "d) Para eu fazer o exercício, é necessário silêncio.",
         ],
         answer: "b",
     },
-{
+    {
         question: "Port ->  “Deram-me, ontem, um novo endereço da loja.” “As referências desta loja não foram boas.” O pronome relativo que estabelece uma relação sintática entre os dois períodos, transformando-os num só, é:",
         options: [
             "a) que",
@@ -200,106 +301,6 @@ const data = [
         answer: "c",
     },
     {
-        question: "Saúde -> Qual das alternativas a seguir descreve corretamente um dos princípios do Sistema Único de Saúde?",
-        options: [
-            "a) Participação na normatização, fiscalização e controle dos serviços de saúde do trabalhador nas instituições e empresas públicas e privadas.",
-            "b) Conjugação dos recursos financeiros, tecnológicos, materiais e humanos da União, dos Estados, do Distrito Federal e dos Municípios na prestação de serviços de assistência à saúde da população.",
-            "c) Coordenar ações e serviços de saúde executados diretamente ou mediante participação complementar da iniciativa privada.",
-            "d) Avaliar os impactos das tecnologias nos serviços de saúde.",
-        ],
-        answer: "b",
-    },
-    {
-        question: "Saúde -> É entendida como um conjunto de ações capazes de eliminar, diminuir ou prevenir riscos à saúde e de intervir nos problemas sanitários decorrentes do meio ambiente, na produção e circulação de bens e na prestação de serviços de interesse da saúde.",
-        options: [
-            "a) Vigilância em saúde ambiental",
-            "b) Vigilância epidemiológica",
-            "c) Vigilância sanitária",
-            "d) Vigilância em saúde do trabalhador",
-        ],
-        answer: "c",
-    },
-    {
-        question: "Saúde -> Art. 3º da lei 8080",
-        options: [
-            "a) O dever do Estado de garantir a saúde consiste na formulação e execução de políticas econômicas e sociais que visem à redução de riscos de doenças e de outros agravos e no estabelecimento de condições que assegurem acesso universal e igualitário às ações e aos serviços para a sua promoção, proteção e recuperação.",
-            "b) Os níveis de saúde expressam a organização social e econômica do País, tendo a saúde como determinantes e condicionantes, entre outros, a alimentação, a moradia, o saneamento básico, o meio ambiente, o trabalho, a renda, a educação, a atividade física, o transporte, o lazer e o acesso aos bens e serviços essenciais.",
-            "c) O dever do Estado não exclui o das pessoas, da família, das empresas e da sociedade.",
-            "d) A saúde é um direito fundamental do ser humano, devendo o Estado prover as condições indispensáveis ao seu pleno exercício.",
-        ],
-        answer: "b",
-    },
-    {
-        question: "Saúde -> A integração entre a Vigilância em Saúde e Atenção Básica é condição essencial para o alcance de resultados que atendam às necessidades de saúde da população. Sobre a atenção básica, assinale a alternativa correta.",
-        options: [
-            "a) O processo de territorialização e mapeamento da área de atuação é responsabilidade exclusiva dos Agentes Comunitários de Saúde.",
-            "b) A Política Nacional de Atenção Básica recomenda que o parâmetro populacional seja de uma equipe por grupo de 2.000 a 5.500 pessoas.",
-            "c) São várias as diretrizes da atenção básica, dentre elas: a longitudinalidade, a coordenação do cuidado e a resolutividade",
-            "d) A prescrição de medicamentos nas Unidades Básicas é realizada exclusivamente por médicos",
-        ],
-        answer: "c",
-    },
-    {
-        question: "Saúde -> Art. 1º da lei 8080",
-        options: [
-            "a) Esta lei regula, em todo o território nacional, as ações e serviços de saúde, executados isolada ou conjuntamente, em caráter permanente ou eventual, por pessoas naturais ou jurídicas de direito Público ou privado",
-            "b) O conjunto de ações e serviços de saúde, prestados por órgãos e instituições públicas federais, estaduais e municipais, da Administração direta e indireta e das fundações mantidas pelo Poder Público, constitui o Sistema Único de Saúde (SUS).",
-            "c) Estão incluídas no disposto neste artigo as instituições públicas federais, estaduais e municipais de controle de qualidade, pesquisa e produção de insumos, medicamentos, inclusive de sangue e hemoderivados, e de equipamentos para saúde.",
-            "d) A iniciativa privada poderá participar do Sistema Único de Saúde (SUS), em caráter complementar.",
-        ],
-        answer: "b",
-    },
-    {
-        question: "Espec -> NÃO é um dos princípios do Sistema Único de Saúde:",
-        options: [
-            "a) participação na normatização, fiscalização e controle dos serviços de saúde do trabalhador nas instituições e empresas públicas e privadas",
-            "b) integração em nível executivo das ações de saúde, meio ambiente e saneamento básico",
-            "c) integralidade de assistência, entendida como conjunto articulado e contínuo das ações e serviços preventivos e curativos, individuais e coletivos, exigidos para cada caso em todos os níveis de complexidade do sistema",
-            "d) conjugação dos recursos financeiros, tecnológicos, materiais e humanos da União, dos Estados, do Distrito Federal e dos Municípios na prestação de serviços de assistência à saúde da população",
-        ],
-        answer: "a",
-    },
-    {
-        question: "Espec -> NÃO é um dos princípios do Sistema Único de Saúde:",
-        options: [
-            "a) igualdade da assistência à saúde, sem preconceitos ou privilégios de qualquer espécie",
-            "b) coordenar ações e serviços de saúde executados diretamente ou mediante participação complementar da iniciativa privada",
-            "c) universalidade de acesso aos serviços de saúde em todos os níveis de assistência",
-            "d) proteção integral dos direitos humanos de todos os usuários e especial atenção à identificação de maus-tratos, de negligência e de violência sexual praticados contra crianças e adolescentes",
-        ],
-        answer: "b",
-    },
-    {
-        question: "Espec -> NÃO é um dos princípios do Sistema Único de Saúde:",
-        options: [
-            "a) descentralização político-administrativa, com direção única em cada esfera de governo: ênfase na descentralização dos serviços para os municípios; regionalização e hierarquização da rede de serviços de saúde",
-            "b) organização de atendimento público específico e especializado para mulheres e vítimas de violência doméstica em geral, que garanta, entre outros, atendimento, acompanhamento psicológico e cirurgias plásticas reparadoras",
-            "c) preservação da autonomia das pessoas na defesa de sua integridade física e moral",
-            "d) avaliar os impactos das tecnologias nos serviços de saúde",
-        ],
-        answer: "d",
-    },
-    {
-        question: "Espec -> NÃO é um dos princípios do Sistema Único de Saúde:",
-        options: [
-            "a) participação da comunidade",
-            "b) organização dos serviços públicos de modo a evitar duplicidade de meios para fins idênticos",
-            "c) coordenar ações e serviços de saúde executados diretamente ou mediante participação complementar da iniciativa privada",
-            "d) direito à informação, às pessoas assistidas, sobre sua saúde",
-        ],
-        answer: "c",
-    },
-    {
-        question: "Espec -> NÃO é um dos princípios do Sistema Único de Saúde:",
-        options: [
-            "a) utilização da epidemiologia para o estabelecimento de prioridades, a alocação de recursos e a orientação programática",
-            "b) divulgação de informações quanto ao potencial dos serviços de saúde e a sua utilização pelo usuário",
-            "c) participação na normatização, fiscalização e controle dos serviços de saúde do trabalhador nas instituições e empresas públicas e privadas",
-            "d) capacidade de resolução dos serviços em todos os níveis de assistência",
-        ],
-        answer: "c",
-    },
-   {
         question: "Port -> Assinale a frase correta quanto ao emprego de pronomes. ",
         options: [
             "a) José, espere-me um pouco; eu quero ir consigo à audiência.",
