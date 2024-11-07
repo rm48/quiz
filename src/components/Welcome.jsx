@@ -11,7 +11,7 @@ const Welcome = () => {
 
     return (
         <div id="welcome">
-            <h2>Ag. Avaliação</h2>
+            <h2>Quiz</h2>
 
             <button onClick={() => dispatch({ type: "CHANGE_STATE" })}>
                 Simulado 1
